@@ -176,174 +176,12 @@ export const DATA = {
     },
   ],
   projects: [
-    // {
-    //   title: "Personalized Campaign Strategies Analysis",
-    //   href: "",
-    //   iframe: "",
-    //   dates: "",
-    //   active: true,
-    //   description:
-    //     "I've been assigned to give consideration to campaign strategies to revive sales of a grocery retail company. I decided to use A/B Testing and Customer Segmentation to make personalized campaign strategies. ",
-
-    //   // "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-    //   technologies: ["SQL", "Python", "Tableau", "Google Collab"],
-    //   links: [
-    //     {
-    //       type: "Tableau Dashboard",
-    //       href: "https://public.tableau.com/app/profile/rania.nisrina/viz/DEEPPEDA_17251138229630/Dashboard1",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "K-Means Clustering",
-    //       href: "https://colab.research.google.com/drive/1JibGLr_imU15TJM5TJ-4vXI_qxnm7pVr#scrollTo=NBvuRQh5w--b",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "A/B Testing",
-    //       href: "https://colab.research.google.com/drive/1JibGLr_imU15TJM5TJ-4vXI_qxnm7pVr#scrollTo=NBvuRQh5w--b",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/project/hh.jpeg",
-    //   imageList: [
-    //     "https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp",
-    //     "https://gw.alipayobjects.com/zos/antfincdn/cV16ZqzMjW/photo-1473091540282-9b846e7965e3.webp",
-    //     "https://gw.alipayobjects.com/zos/antfincdn/x43I27A55%26/photo-1438109491414-7198515b166b.webp",
-    //   ],
-    //   video: "",
-    // },
-    // {
-    //   title: "Personalized Campaign Strategies Analysis2",
-    //   href: "",
-    //   iframe: "",
-    //   dates: "",
-    //   active: true,
-    //   description:
-    //     "I've been assigned to give consideration to campaign strategies to revive sales of a grocery retail company. I decided to use A/B Testing and Customer Segmentation to make personalized campaign strategies. ",
-
-    //   // "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-    //   technologies: ["SQL", "Python", "Tableau", "Google Collab"],
-    //   links: [
-    //     {
-    //       type: "Tableau Dashboard",
-    //       href: "https://public.tableau.com/app/profile/rania.nisrina/viz/DEEPPEDA_17251138229630/Dashboard1",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "K-Means Clustering",
-    //       href: "https://colab.research.google.com/drive/1JibGLr_imU15TJM5TJ-4vXI_qxnm7pVr#scrollTo=NBvuRQh5w--b",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "A/B Testing",
-    //       href: "https://colab.research.google.com/drive/1JibGLr_imU15TJM5TJ-4vXI_qxnm7pVr#scrollTo=NBvuRQh5w--b",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/project/hh.jpeg",
-    //   imageList: [],
-    //   video: "",
-    // },
-    // {
-    //   title: "Sales Performance Dashboard for CEO and the Executives",
-    //   href: "",
-    //   iframe:
-    //     "https://docs.google.com/presentation/d/1fhECnBEU2-rJIWXzgbLY0q12B-uR2IHCy3V2OzGwI4Y/embed?start=false&loop=false&delayms=3000",
-    //   dates: "",
-    //   active: true,
-    //   description:
-    //     "CEO of an e-commerce wants me to give comprehensive insights into sales performance and customer understanding through impactful and detailed visualizations. I used Tableau to create an insightful dashboard crucial tool for guiding strategic decisions and keeping the company on track with business goals.",
-
-    //   // "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-    //   technologies: ["Tableau"],
-    //   links: [
-    //     {
-    //       type: "Tableau Dashboard",
-    //       href: "https://public.tableau.com/app/profile/rania.nisrina/viz/IntermediateAssignment_RaniaNisrina/DashboardFIX",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/project/tableau.jpeg",
-    //   video: "",
-    // },
-    // {
-    //   title: "Customer Segmentation Using RFM",
-    //   href: "",
-    //   iframe:
-    //     "https://docs.google.com/presentation/d/1N0wplshwMoT9x655i1yA2WXzT15W75zySCHZvAqbirs/embed?start=false&loop=false&delayms=3000",
-    //   dates: "",
-    //   active: true,
-    //   description:
-    //     "I have a project to analyze clients and sales of a Bank in credit card products. Between RFM Segmentation and K-means Clustering, I prefer using RFM because it could help better to make personal-based marketing to increase sales from existing customers.",
-
-    //   // "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-    //   technologies: ["Python", "Google Collab"],
-    //   links: [
-    //     {
-    //       type: "Google Collab",
-    //       href: "https://colab.research.google.com/drive/1Eyftu0u41d9YLxR4TxBWIBGqqVf28Z72?usp=sharing",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/project/rfm.jpeg",
-    //   video: "",
-    // },
-    // {
-    //   title: "BCG Matrix and Cohort Analysis",
-    //   href: "",
-    //   iframe:
-    //     "https://docs.google.com/presentation/d/11887hSO0HBLbyXVnBj5D9qINzVhm83yYP7gIvZNJQfM/embed?start=false&loop=false&delayms=3000",
-    //   dates: "",
-    //   active: true,
-    //   description:
-    //     "I've been assigned to do analysis of an e-commerce company with BCG Matrix and cohort for making decisions to cut off resources in some categories with the lowest growth in the past 1 year.",
-
-    //   // "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-    //   technologies: ["SQL", "Spreadsheet"],
-    //   links: [
-    //     {
-    //       type: "Spreadsheet",
-    //       href: "https://docs.google.com/spreadsheets/d/1wCBF9LyHtdb3DfwjRGXrnOSvWLVZFk1n4cSmDfE8Do4/edit?gid=642536688#gid=642536688",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/project/cohort.jpeg",
-    //   video: "",
-    // },
-    // {
-    //   title: "EDA and Linear Regression",
-    //   href: "",
-    //   iframe:
-    //     "https://docs.google.com/presentation/d/1bqjwDUQMGjn1hdsRg9DRdCYFAN1Z1IF_a2-Mn0tgU0c/embed?start=false&loop=false&delayms=3000",
-    //   dates: "",
-    //   active: true,
-    //   description:
-    //     "I have used Spreadsheets to do Exploratory Data Analysis with Spreadsheet including Hypothesis Testing and predicting potential yearly spending with Linear Regression",
-
-    //   // "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-    //   technologies: ["Statistics", "Spreadsheet"],
-    //   links: [
-    //     {
-    //       type: "Linear Regression",
-    //       href: "https://docs.google.com/spreadsheets/d/16Y9iAHx_wF5uuszwPYJL0QEJbyQPUgnMZ7H3f1t6V84/edit?gid=639675455#gid=639675455",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Descriptive Analysis",
-    //       href: "https://docs.google.com/spreadsheets/d/160d7Q9lbW5XbE2FXfcbeTQDf7pGDdymyh8xEX8DwfJk/edit?gid=1872736119#gid=1872736119",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/project/eda.jpeg",
-    //   video: "",
-    // },
     {
       title: "Utility Fielding",
       href: "https://magicui.design",
-      dates: "2021",
+      dates: "",
       active: true,
-      description:
-        "Web application for underground and aerial field inspection and design. Integrated Google Maps API to allow line marking and pole coordination. Implemented drawing functionality using Canvas API. The app enables users to design and inspect field operations efficiently.",
+      description: `Web application for underground and aerial field inspection and design. Integrated **Google Maps API to allow drawing line, marking and pole coordination**. Implemented **drawing functionality using Canvas API**. The app enables users to design and inspect field operations efficiently.`,
       technologies: [
         "ReactJS",
         "Typescript",
@@ -372,7 +210,79 @@ export const DATA = {
         video: "project/utility/utility.mp4",
       },
     },
+    {
+      title: "Hijrah Groceries",
+      href: "",
+      dates: "",
+      active: true,
+      description:
+        "This Web Application enables businesses to access a retail company’s products through **Bank Muamalat’s mobile banking app**. It facilitates B2B transactions, allowing companies to manage orders, process payments, and conduct business efficiently within a secure platform.",
+      technologies: [
+        "ReactJS",
+        "Typescript",
+        "Antd",
+        "TailwindCSS",
+        "Google Maps API",
+        "Zustand",
+      ],
+      links: [
+        {
+          type: "App",
+          href: "https://play.google.com/store/apps/details?id=com.muamalatdin&pcampaignid=web_share",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      thumbnail: "/project/muamalat/thumb.png",
+      listToShow: {
+        type: "video", //iframe, video, imageList
+        imageList: [
+          // "https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp",
+          // "https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp",
+          // "https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp",
+        ],
+        iframe: "",
+        video: "project/muamalat/vid.mp4",
+      },
+    },
+    {
+      title: "EMORY",
+      href: "",
+      dates: "",
+      active: true,
+      description:
+        "This website is a versatile e-commerce management platform designed for different user roles like **suppliers, resellers, and stockists**. It offers features for handling and showing product listings, inventory, orders, sales, inventory insights and customer data all in one place. The platform includes a **live chat feature using Firebase**.",
+      technologies: [
+        "ReactJS",
+        "Typescript",
+        "Material UI",
+        "SASS",
+        "Firebase",
+        "Redux",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://admin.emorystyle.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      thumbnail: "/project/emory/thumb.png",
+      listToShow: {
+        type: "imageList", //iframe, video, imageList
+        imageList: [
+          "project/emory/dash.png",
+          "project/emory/chat.png",
+          "project/emory/addproduct.png",
+          "project/emory/reseller.png",
+          "project/emory/supplier.png",
+          "project/emory/thumb.png",
+        ],
+        iframe: "",
+        video: "",
+      },
+    },
   ],
+
   // certificates: [
   //   {
   //     title: "fdsfsdf1",
