@@ -175,6 +175,7 @@ export default function Page() {
                   title={project.title}
                   description={project.description}
                   dates={project.dates}
+                  subtitle={project.subtitle}
                   tags={project.technologies}
                   // iframe={project?.iframe}
                   // image={project.image}

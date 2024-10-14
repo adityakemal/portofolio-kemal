@@ -33,6 +33,7 @@ interface Props {
   className?: string;
   listToShow?: ListToShow;
   thumbnail?: string;
+  subtitle?: string;
 }
 
 type ListToShow = {
@@ -55,6 +56,7 @@ export function ProjectCard({
   className,
   listToShow,
   thumbnail,
+  subtitle,
 }: Props) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -175,7 +177,9 @@ export function ProjectCard({
       <CardHeader className="px-2">
         <div className="space-y-1">
           <CardTitle className="mt-1 text-base">{title}</CardTitle>
-          <time className="font-sans text-xs">{dates}</time>
+          <time className="font-sans text-xs">
+            {dates} {subtitle}
+          </time>
           <div className="hidden font-sans text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>

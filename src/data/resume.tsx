@@ -16,13 +16,14 @@ export const DATA = {
     { name: "ReactJS", className: "hover:bg-sky-400 hover:text-black" },
     { name: "NextJS", className: "hover:bg-black hover:text-white" },
     { name: "VueJS", className: "hover:bg-green-500 hover:text-white" },
+    { name: "NuxtJS", className: "hover:bg-green-500 hover:text-white" },
     { name: "JavaScript", className: "hover:bg-yellow-300 hover:text-black" },
     { name: "TypeScript", className: "hover:bg-blue-600 hover:text-white" },
     { name: "Redux", className: "hover:bg-purple-600 hover:text-white" },
     { name: "Zustand", className: "hover:bg-[#453F39] hover:text-white" },
     { name: "CSS/SASS", className: "hover:bg-pink-500 hover:text-white" },
     { name: "Tailwind CSS", className: "hover:bg-teal-500 hover:text-white" },
-    { name: "Express", className: "hover:text-black hover:bg-white" },
+    { name: "ExpressJS", className: "hover:text-black hover:bg-white" },
     { name: "Hono", className: "hover:text-white hover:bg-orange-400" },
     { name: "NodeJS", className: "hover:bg-green-400 hover:text-black" },
     { name: "Bun", className: "hover:text-gray-900 hover:bg-white" },
@@ -84,7 +85,7 @@ export const DATA = {
       start: "Feb 2022",
       end: "Present",
       description: `
-        <li>Developed a scalable web application for product transactions using <strong>NuxtJS</strong>, significantly improving the user experience and reducing load times by 30%.</li>
+        <li>Developed a scalable web application for product transactions using <strong>NextJS</strong>, significantly improving the user experience and reducing load times by 30%.</li>
         <li>Created a dynamic landing page using <strong>ReactJS</strong>, enhancing customer engagement and conversion rates.</li>
         <li>Built a CMS dashboard with <strong>ReactJS</strong> for efficient content management by internal teams.</li>
         <li>Developed a cashier application using <strong>React Native Expo</strong>, allowing seamless mobile-based transactions.</li>
@@ -177,9 +178,85 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Utility Fielding",
-      href: "https://magicui.design",
+      title: "ESCROW SG",
+      href: "",
       dates: "",
+      subtitle: `Frontend`,
+      description:
+        "Escrow is web application platform designed to facilitate secure and transparent transactions between individuals, businesses, or a combination of both. In the digital era, where cross-border transactions are increasingly common, this platform provides a solution to maintain trust and security in every transaction.",
+      active: true,
+      technologies: [
+        "NextJS",
+        "Typescript",
+        "TailwindCSS",
+        "Zustand",
+        "Antd",
+        "UI/UX",
+        "OneSignal",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://app.escrowsg.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        // {
+        //   type: "Client",
+        //   href: "https://www.escrowsg.com/",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+      ],
+      thumbnail: "/project/escrow/thumb.png",
+      listToShow: {
+        type: "imageList" as "imageList" | "iframe" | "video", //iframe, video, imageList
+        imageList: [
+          "/project/escrow/1.png",
+          "/project/escrow/2.png",
+          "/project/escrow/3.png",
+          "/project/escrow/4.png",
+          "/project/escrow/5.png",
+        ],
+        iframe: "",
+        video: "",
+      },
+    },
+    {
+      title: "BRI Mikro Unit Task Monitoring",
+      href: "",
+      dates: "",
+      subtitle: `Frontend & UI/UX`,
+      description:
+        "A web application for **BRI (Bank Rakyat Indonesia)** to monitor savings and loan performance. It features a multi-level approval system for tracking and approving transactions, a real-time dashboard showing targets versus actual performance. The platform enables data-driven decision-making at both the regional and national levels.",
+      active: true,
+      technologies: [
+        "UI/UX",
+        "ReactJS",
+        "Vite",
+        "Typescript",
+        "TailwindCSS",
+        "Zustand",
+        "Antd",
+      ],
+      links: [
+        {
+          type: "Staging Website",
+          href: "https://fe-brimonitoring.arnatech.id/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      thumbnail: "/project/bri/thumb.png",
+      listToShow: {
+        type: "video", //iframe, video, imageList
+        imageList: [],
+        iframe: "",
+        video: "project/bri/bri.mp4",
+      },
+    },
+    {
+      title: "Utility Fielding",
+      href: "",
+      dates: "",
+      subtitle: "Frontend",
       active: true,
       description: `Web application for underground and aerial field inspection and design. Integrated **Google Maps API to allow drawing line, marking and pole coordination**. Implemented **drawing functionality using Canvas API**. The app enables users to design and inspect field operations efficiently.`,
       technologies: [
@@ -214,6 +291,7 @@ export const DATA = {
       title: "Hijrah Groceries",
       href: "",
       dates: "",
+      subtitle: "Frontend",
       active: true,
       description:
         "This Web Application enables businesses to access a retail company’s products through **Bank Muamalat’s mobile banking app**. It facilitates B2B transactions, allowing companies to manage orders, process payments, and conduct business efficiently within a secure platform.",
@@ -248,6 +326,7 @@ export const DATA = {
       title: "EMORY",
       href: "",
       dates: "",
+      subtitle: "Frontend",
       active: true,
       description:
         "This website is a versatile e-commerce management platform designed for different user roles like **suppliers, resellers, and stockists**. It offers features for handling and showing product listings, inventory, orders, sales, inventory insights and customer data all in one place. The platform includes a **live chat feature using Firebase**.",
@@ -313,7 +392,7 @@ export const DATA = {
   // hackathons: [
   //   {
   //     title: "Hack Western 5",
-  //     dates: "November 23rd - 25th, 2018",
+  //     subtitle: "November 23rd - 25th, 2018",
   //     location: "London, Ontario",
   //     description:
   //       "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
