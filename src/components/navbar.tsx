@@ -25,8 +25,7 @@ export default function Navbar() {
                   className={cn(
                     buttonVariants({ variant: "ghost", size: "icon" }),
                     "size-12"
-                  )}
-                >
+                  )}>
                   <item.icon className="size-4" />
                 </Link>
               </TooltipTrigger>
@@ -49,13 +48,12 @@ export default function Navbar() {
                       buttonVariants({ variant: "ghost", size: "icon" }),
                       "size-12"
                     )}
-                    target="__blank"
-                  >
+                    target="__blank">
                     <social.icon className="size-4" />
                   </Link>
                 </TooltipTrigger>
                 <TooltipContent>
-                  <p>{name}</p>
+                  <p>{social?.name}</p>
                 </TooltipContent>
               </Tooltip>
             </DockIcon>

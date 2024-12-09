@@ -71,6 +71,12 @@ export const DATA = {
 
         navbar: true,
       },
+      download: {
+        name: "Download Resume",
+        url: "/ResumeFE_Kemal_2025.pdf",
+        icon: Icons.download,
+        navbar: true,
+      },
     },
   },
 
