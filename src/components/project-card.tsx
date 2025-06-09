@@ -72,8 +72,7 @@ export function ProjectCard({
     <Card
       className={
         "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"
-      }
-    >
+      }>
       <div className={cn("relative block cursor-pointer", className)}>
         {/* with video  */}
         {listToShowType === "video" && (
@@ -195,8 +194,7 @@ export function ProjectCard({
               <Badge
                 className="px-1 py-0 text-[10px]"
                 variant="secondary"
-                key={tag}
-              >
+                key={tag}>
                 {tag}
               </Badge>
             ))}

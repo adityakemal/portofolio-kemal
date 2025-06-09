@@ -14,6 +14,8 @@ export const DATA = {
   avatarUrlCartoon: "/me.jpeg",
   skills: [
     { name: "ReactJS", className: "hover:bg-sky-400 hover:text-black" },
+    { name: "React Native", className: "hover:bg-sky-400 hover:text-black" },
+    { name: "Python", className: "hover:bg-yellow-500 hover:text-white" },
     { name: "NextJS", className: "hover:bg-black hover:text-white" },
     { name: "VueJS", className: "hover:bg-green-500 hover:text-white" },
     { name: "NuxtJS", className: "hover:bg-green-500 hover:text-white" },
@@ -28,7 +30,6 @@ export const DATA = {
     { name: "NodeJS", className: "hover:bg-green-400 hover:text-black" },
     { name: "Bun", className: "hover:text-gray-900 hover:bg-white" },
     { name: "NGINX", className: "hover:bg-green-600 hover:text-white" },
-    { name: "React Native", className: "hover:bg-sky-400 hover:text-black" },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -154,19 +155,19 @@ export const DATA = {
     // },
   ],
   education: [
-    {
-      school: "NIOMIC (Online Course)",
-      href: "https://niomic.id/",
-      degree: "Frontend",
-      logoUrl: "/niomic.png",
-      start: "2019",
-      end: "2020",
-      description: ``,
-    },
+    // {
+    //   school: "NIOMIC (Online Course)",
+    //   href: "https://niomic.id/",
+    //   degree: "Frontend",
+    //   logoUrl: "/niomic.png",
+    //   start: "2019",
+    //   end: "2020",
+    //   description: ``,
+    // },
     {
       school: "Makers Institute",
       href: "https://makersinstitute.io/home",
-      degree: "Full Stack Javascript",
+      degree: "Full Stack (Bootcamp)",
       logoUrl: "/makers.jpg",
       start: "2017",
       end: "2018",
@@ -174,7 +175,7 @@ export const DATA = {
     },
     {
       school: "UIN Bandung",
-      href: "https://uinsgd.ac.id/",
+      href: "https://pddikti.kemdiktisaintek.go.id/detail-mahasiswa/Hs1zaXNtxCBuXwIhQHVNhVtLiz043S26ndsdifUP1MLHMGTa7UQDJQhy88NA37YcldD5RQ==",
       degree: "Electrical Engineering",
       logoUrl: "/uin.png",
       start: "2011",
@@ -294,7 +295,7 @@ export const DATA = {
       },
     },
     {
-      title: "Hijrah Groceries",
+      title: "Hijrah Groceries Bank Muamalat",
       href: "",
       dates: "",
       subtitle: "Frontend",
