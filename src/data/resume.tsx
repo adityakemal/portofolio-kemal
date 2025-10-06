@@ -8,8 +8,8 @@ export const DATA = {
   location: "Bandung",
   locationLink: "https://www.google.com/maps/place/bandung",
   description:
-    "A Software Engineer passionate about building and helping people create innovative solutions.",
-  summary: `My journey started with [a Full-Stack course](/#education), leading to a year as a junior fullstack developer. Over the past 5+ years, I have focused on frontend development, while also gaining experience in backend and mobile app projects. I’m continually motivated to explore and learn new technologies to enhance my expertise.`,
+    "Frontend Engineer specializing in React/Next.js and React Native, focused on building performant, accessible, and scalable products.",
+  summary: `My journey started with [a Full-Stack course](/#education), followed by a year as a junior fullstack developer. Over the past 5+ years, I've specialized in frontend engineering (React, Next.js, TypeScript) and shipped production web and mobile apps end-to-end. I'm driven by measurable impact, code quality, and continual learning.`,
   avatarUrl: "/ava.jpeg",
   avatarUrlCartoon: "/me.jpeg",
   skills: [
@@ -87,16 +87,16 @@ export const DATA = {
       href: "https://balesin.id/",
       badges: [],
       location: "Jakarta",
-      title: "Frontend Engineer",
+      title: "Frontend/Mobile Engineer",
       logoUrl: "/balesin.png",
       start: "Feb 2022",
       end: "Present",
       description: `
-        <li>Developed a scalable web application for product transactions using <strong>NextJS</strong>, significantly improving the user experience and reducing load times by 30%.</li>
-        <li>Created a dynamic landing page using <strong>ReactJS</strong>, enhancing customer engagement and conversion rates.</li>
-        <li>Built a CMS dashboard with <strong>ReactJS</strong> for efficient content management by internal teams.</li>
-        <li>Developed a cashier application using <strong>React Native Expo</strong>, allowing seamless mobile-based transactions.</li>
-        <li>Consistently improved the <strong>UI and UX</strong> of each application to ensure a better user experience.</li>
+        <li>Led development of a scalable product-transaction web app using <strong>NextJS</strong>, cutting page load time by ~30% and improving conversion.</li>
+        <li>Built a high-impact marketing landing page in <strong>ReactJS</strong> to increase engagement.</li>
+        <li>Delivered an internal <strong>ReactJS</strong> CMS to accelerate content operations.</li>
+        <li>Shipped a cashier app with <strong>React Native (Expo)</strong> enabling seamless mobile transactions.</li>
+        <li>Continuously iterated on <strong>UI/UX</strong>, accessibility, and performance.</li>
       `,
     },
     {
@@ -109,10 +109,10 @@ export const DATA = {
       start: "Feb 2021",
       end: "Feb 2022",
       description: `
-        <li>Designed and developed the <strong>BRI Emergency Report</strong> web app, utilizing <strong>Google APIs</strong> for geolocation, contributing to better emergency response efficiency.</li>
-        <li>Created the BRI Bantuan Bayar Non Tunai web app using <strong>ReactJS</strong>, <strong>Bootstrap</strong>, and <strong>Redux</strong>, leading to a more efficient payment system for users.</li>
-        <li>Developed the <strong>Hukum Online</strong> web app's frontend using SASS, enhancing legal service accessibility for users.</li>
-      `,
+      <li>Designed and built the <strong>BRI Emergency Report</strong> app using <strong>Google Maps APIs</strong> for precise geolocation and reporting.</li>
+      <li>Developed the BRI cashless payment web app with <strong>ReactJS</strong>, <strong>Bootstrap</strong>, and <strong>Redux</strong> to streamline transactions.</li>
+      <li>Implemented the <strong>Hukum Online</strong> frontend with <strong>Sass</strong>, enhancing usability and performance.</li>
+    `,
     },
     {
       company: "Wir Group",
@@ -124,8 +124,8 @@ export const DATA = {
       start: "Apr 2019",
       end: "Feb 2021",
       description: `
-        <li>As a <strong>Frontend Developer</strong>, I collaborated on the development of <strong>B2B busines models</strong>, contributing to implementation of <strong>web applications, dashboards</strong> and <strong>landing pages</strong> optimized for usability and performance.</li>
-        <li>Collaborated with clients, including prominent banks and various retail companies such as <strong>Alfamart</strong>, <strong>Mandiri</strong>, and <strong>Muamalat</strong>, among others, to develop customized web solutions that addressed their specific needs and supported the implementation of B2B business models.</li>      `,
+      <li>Contributed as a <strong>Frontend Developer</strong> across B2B initiatives, delivering <strong>web apps</strong>, <strong>dashboards</strong>, and <strong>landing pages</strong> optimized for performance.</li>
+      <li>Collaborated with clients including <strong>Alfamart</strong>, <strong>Mandiri</strong>, and <strong>Muamalat</strong> to tailor solutions to business needs.</li>      `,
     },
     {
       company: "Yuna & Co",
@@ -137,9 +137,9 @@ export const DATA = {
       start: "Feb 2018",
       end: "Apr 2019",
       description: `
-        <li>Developed backend testing features using Node.js with <strong>Happy Joi</strong> for robust data validation.</li>
-        <li>Created email templates and integrated them into various applications to improve customer communication efficiency.</li>
-        <li>Developed landing page and web application for gallery products using <strong>Django</strong>.</li>`,
+      <li>Built backend validation with Node.js using <strong>hapi/joi</strong> for robust data quality.</li>
+      <li>Created and integrated email templates to improve communication workflows.</li>
+      <li>Developed a product gallery landing page and web application using <strong>Django</strong>.</li>`,
     },
     // {
     //   company: "Mitre Media",
@@ -185,17 +185,54 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "POS / Cashier Application",
+      href: "",
+      dates: "",
+      subtitle: `Frontend & Mobile`,
+      description:
+        "Mobile-first POS and cashier app for sales recording, inventory tracking, and daily operations. Built with React Native Expo and TypeScript with an intuitive, responsive UI for fast cashier flows. Deployed to Google Play.",
+      active: true,
+      technologies: [
+        "React Native",
+        "Expo",
+        "TypeScript",
+        "NativeWind",
+        "Zustand",
+        "UI/UX",
+      ],
+      links: [
+        {
+          type: "Play Store",
+          href: "https://play.google.com/store/apps/details?id=com.balesinid.poscashierbalesin&hl=en",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      thumbnail: "/project/pos/pos1.png",
+      listToShow: {
+        type: "imageList" as "imageList" | "iframe" | "video", //iframe, video, imageList
+        imageList: [
+          // "/project/pos/pos1.png",
+          "/project/pos/pos5.png",
+          "/project/pos/pos2.png",
+          "/project/pos/pos4.png",
+          "/project/pos/pos3.png",
+        ],
+        iframe: "",
+        video: "",
+      },
+    },
+    {
       title: "ESCROW SG",
       href: "",
       dates: "",
       subtitle: `Frontend`,
       description:
-        "Escrow is web application platform designed to facilitate secure and transparent transactions between individuals, businesses, or a combination of both. In the digital era, where cross-border transactions are increasingly common, this platform provides a solution to maintain trust and security in every transaction.",
+        "Escrow web platform enabling secure, transparent transactions between individuals and businesses, with role-based flows and real-time status tracking.",
       active: true,
       technologies: [
         "NextJS",
-        "Typescript",
-        "TailwindCSS",
+        "TypeScript",
+        "Tailwind CSS",
         "Zustand",
         "Antd",
         "UI/UX",
@@ -207,11 +244,6 @@ export const DATA = {
           href: "https://app.escrowsg.com/",
           icon: <Icons.globe className="size-3" />,
         },
-        // {
-        //   type: "Client",
-        //   href: "https://www.escrowsg.com/",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
       ],
       thumbnail: "/project/escrow/thumb.png",
       listToShow: {
@@ -233,7 +265,7 @@ export const DATA = {
       dates: "",
       subtitle: `Frontend & UI/UX`,
       description:
-        "A web application for **BRI (Bank Rakyat Indonesia)** to monitor savings and loan performance. It features a multi-level approval system for tracking and approving transactions, a real-time dashboard showing targets versus actual performance. The platform enables data-driven decision-making at both the regional and national levels.",
+        "Web application for <strong>BRI (Bank Rakyat Indonesia)</strong> to monitor savings and loan performance with multi-level approvals and real-time dashboards (targets vs. actuals), enabling data-driven decisions from regional to national levels.",
       active: true,
       technologies: [
         "UI/UX",
@@ -265,12 +297,12 @@ export const DATA = {
       dates: "",
       subtitle: "Frontend",
       active: true,
-      description: `Web application for underground and aerial field inspection and design. Integrated **Google Maps API to allow drawing line, marking and pole coordination**. Implemented **drawing functionality using Canvas API**. The app enables users to design and inspect field operations efficiently.`,
+      description: `Web application for underground and aerial field inspection and design. Integrated <strong>Google Maps API</strong> for line drawing, marking, and pole coordination, and <strong>Canvas API</strong> for drafting. Enables efficient planning and inspection in the field.`,
       technologies: [
         "ReactJS",
-        "Typescript",
+        "TypeScript",
         "Material UI",
-        "TailwindCSS",
+        "Tailwind CSS",
         "Google Maps API",
         "Redux Toolkit",
         "Canvas API",
@@ -301,12 +333,12 @@ export const DATA = {
       subtitle: "Frontend",
       active: true,
       description:
-        "This Web Application enables businesses to access a retail company’s products through **Bank Muamalat’s mobile banking app**. It facilitates B2B transactions, allowing companies to manage orders, process payments, and conduct business efficiently within a secure platform.",
+        "Web application that allows businesses to access a retail partner's products through <strong>Bank Muamalat</strong>'s mobile banking app, enabling B2B ordering and payment within a secure platform.",
       technologies: [
         "ReactJS",
-        "Typescript",
+        "TypeScript",
         "Antd",
-        "TailwindCSS",
+        "Tailwind CSS",
         "Google Maps API",
         "Zustand",
       ],
@@ -336,10 +368,10 @@ export const DATA = {
       subtitle: "Frontend",
       active: true,
       description:
-        "This website is a versatile e-commerce management platform designed for different user roles like **suppliers, resellers, and stockists**. It offers features for handling and showing product listings, inventory, orders, sales, inventory insights and customer data all in one place. The platform includes a **live chat feature using Firebase**.",
+        "Multi-role e-commerce management platform for <strong>suppliers</strong>, <strong>resellers</strong>, and <strong>stockists</strong>. Supports product catalog, inventory, orders, sales insights, and customer data with a <strong>Firebase</strong>-powered live chat.",
       technologies: [
         "ReactJS",
-        "Typescript",
+        "TypeScript",
         "Material UI",
         "SASS",
         "Firebase",
