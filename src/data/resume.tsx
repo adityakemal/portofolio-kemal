@@ -245,7 +245,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      thumbnail: "/project/escrow/thumb.png",
+      thumbnail: "/project/escrow/thumb.webp",
       listToShow: {
         type: "imageList" as "imageList" | "iframe" | "video", //iframe, video, imageList
         imageList: [
@@ -253,7 +253,7 @@ export const DATA = {
           "/project/escrow/2.png",
           "/project/escrow/3.png",
           "/project/escrow/4.png",
-          "/project/escrow/5.png",
+          "/project/escrow/5.webp",
         ],
         iframe: "",
         video: "",
