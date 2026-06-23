@@ -1,8 +1,6 @@
 import Link from "next/link";
 import { DATA } from "@/data/resume";
 
-import CertificateGallery from "@/components/certificate-gallery";
-import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 
@@ -126,18 +124,27 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Skills</h2>
           </BlurFade>
-          <div className="flex flex-wrap gap-1">
-            {DATA.skills.map((skill, id) => (
+          <div className="flex flex-col gap-3">
+            {DATA.skills.map((group, gid) => (
               <BlurFade
-                key={skill?.name}
-                delay={BLUR_FADE_DELAY * 10 + id * 0.05}
+                key={group.category}
+                delay={BLUR_FADE_DELAY * 10 + gid * 0.1}
               >
-                <Badge
-                  key={skill?.name}
-                  className={`${skill?.className} duration-300 cursor-default`}
-                >
-                  {skill?.name}
-                </Badge>
+                <div className="flex flex-col gap-1.5">
+                  <span className="text-xs font-medium text-muted-foreground">
+                    {group.category}
+                  </span>
+                  <div className="flex flex-wrap gap-1">
+                    {group.items.map((skill) => (
+                      <Badge
+                        key={skill.name}
+                        className={`${skill.className} duration-300 cursor-default`}
+                      >
+                        {skill.name}
+                      </Badge>
+                    ))}
+                  </div>
+                </div>
               </BlurFade>
             ))}
           </div>
@@ -152,117 +159,60 @@ export default function Page() {
                   Portfolio
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-pretty">
-                  My Work as a Software Engineer
+                  What I&apos;ve Shipped
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-pretty">
-                  I&apos;ve had the opportunity to work on various projects in
-                  software development. continually learning, collaborating with
-                  great teams, and building solutions that make a positive
-                  impact.
+                  From enterprise banking systems to AI-powered consumer
+                  apps — 7+ years of building production software that
+                  real people use.
                 </p>
               </div>
             </div>
           </BlurFade>
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
-            {DATA.projects.map((project, id) => (
-              <BlurFade
-                key={project.title}
-                delay={BLUR_FADE_DELAY * 12 + id * 0.05}
-              >
-                <ProjectCard
-                  href={project.href}
-                  key={project.title}
-                  title={project.title}
-                  description={project.description}
-                  dates={project.dates}
-                  subtitle={project.subtitle}
-                  tags={project.technologies}
-                  // iframe={project?.iframe}
-                  // image={project.image}
-                  // video={project.video}
-                  links={project.links}
-                  listToShow={project.listToShow}
-                  thumbnail={project.thumbnail}
-                />
-              </BlurFade>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* <section id="certificates">
-        <div className="space-y-12 w-full py-12">
-          <BlurFade delay={BLUR_FADE_DELAY * 14}>
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Certificates
-                </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-pretty">
-                  My Achievements and Qualifications
-                </h2>
-                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed  text-pretty">
-                  As a recent graduate of a data analysis course, I&apos;m proud
-                  to present the certificates I&apos;ve earned. These
-                  certifications represent my dedication to developing skills
-                  and knowledge in the field of data analysis.
-                </p>
-              </div>
-            </div>
-          </BlurFade>
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
-            <CertificateGallery
-              blurFadeDelay={BLUR_FADE_DELAY * 14}
-              data={DATA?.certificates}
-            />
-          </div>
-        </div>
-      </section> */}
-
-      {/* <section id="hackathons">
-        <div className="space-y-12 w-full py-12">
-          <BlurFade delay={BLUR_FADE_DELAY * 13}>
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Hackathons
-                </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I like building things
-                </h2>
-                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended{" "}
-                  {DATA.hackathons.length}+ hackathons. People from around the
-                  country would come together and build incredible things in 2-3
-                  days. It was eye-opening to see the endless possibilities
-                  brought to life by a group of motivated and passionate
-                  individuals.
-                </p>
-              </div>
-            </div>
-          </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 14}>
-            <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
-              {DATA.hackathons.map((project, id) => (
+          <div className="max-w-[800px] mx-auto">
+            <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+              {DATA.projects.map((project, id) => (
                 <BlurFade
-                  key={project.title + project.dates}
-                  delay={BLUR_FADE_DELAY * 15 + id * 0.05}
+                  key={project.title}
+                  delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+                  className={id >= 4 ? "project-archive" : ""}
                 >
-                  <HackathonCard
+                  <ProjectCard
+                    href={project.href}
+                    key={project.title}
                     title={project.title}
                     description={project.description}
-                    location={project.location}
                     dates={project.dates}
-                    image={project.image}
+                    subtitle={project.subtitle}
+                    tags={project.technologies}
                     links={project.links}
+                    listToShow={project.listToShow}
+                    thumbnail={project.thumbnail}
                   />
                 </BlurFade>
               ))}
-            </ul>
-          </BlurFade>
+            </div>
+            {DATA.projects.length > 4 && (
+              <details className="mt-6 group" id="show-more-projects">
+                <summary className="cursor-pointer text-sm text-muted-foreground hover:text-foreground transition-colors text-center list-none flex items-center justify-center gap-2">
+                  <span className="group-open:hidden">Show More</span>
+                  <span className="hidden group-open:inline">Show Less</span>
+                  <svg
+                    className="size-4 transition-transform group-open:rotate-180"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+              </details>
+            )}
+          </div>
         </div>
       </section>
-       */}
+
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
@@ -278,7 +228,7 @@ export default function Page() {
                 <Link
                   href={DATA.contact.social.WhatsApp.url}
                   className="text-blue-500 hover:underline"
-                  target="__blank"
+                  target="_blank"
                 >
                   reach out via WhatsApp
                 </Link>{" "}

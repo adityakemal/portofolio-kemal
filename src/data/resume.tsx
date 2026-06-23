@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Kemal Aditya Zulfikar",
@@ -8,68 +8,78 @@ export const DATA = {
   location: "Bandung",
   locationLink: "https://www.google.com/maps/place/bandung",
   description:
-    "Frontend Engineer specializing in React/Next.js and React Native, focused on building performant, accessible, and scalable products.",
-  summary: `My journey started with [a Full-Stack course](/#education), followed by a year as a junior fullstack developer. Over the past 5+ years, I've specialized in frontend engineering (React, Next.js, TypeScript) and shipped production web and mobile apps end-to-end. I'm driven by measurable impact, code quality, and continual learning.`,
+    "Principal Full-Stack Engineer & AI Product Founder. 7+ years shipping high-stakes enterprise systems and solo AI products. Open for consulting.",
+  summary: `Principal Full-Stack Engineer with [7+ years](/#work) of experience building high-stakes systems for Indonesia's largest enterprises (**BRI**, **Pertamina**, **Bank Muamalat**) and shipping solo AI products from scratch. Specialized in high-performance backends (Elysia, Bun), offline-first mobile architecture, and production-grade LLM orchestration. I build autonomous, cost-efficient software where AI solves real user friction—not just API cost inflation. **Currently open for senior engineering roles and high-level consulting.**`,
   avatarUrl: "/ava.jpeg",
   avatarUrlCartoon: "/me.jpeg",
   skills: [
-    { name: "ReactJS", className: "hover:bg-sky-400 hover:text-black" },
-    { name: "React Native", className: "hover:bg-sky-400 hover:text-black" },
-    { name: "Python", className: "hover:bg-yellow-500 hover:text-white" },
-    { name: "NextJS", className: "hover:bg-black hover:text-white" },
-    { name: "VueJS", className: "hover:bg-green-500 hover:text-white" },
-    { name: "NuxtJS", className: "hover:bg-green-500 hover:text-white" },
-    { name: "JavaScript", className: "hover:bg-yellow-300 hover:text-black" },
-    { name: "TypeScript", className: "hover:bg-blue-600 hover:text-white" },
-    { name: "Redux", className: "hover:bg-purple-600 hover:text-white" },
-    { name: "Zustand", className: "hover:bg-[#453F39] hover:text-white" },
-    { name: "CSS/SASS", className: "hover:bg-pink-500 hover:text-white" },
-    { name: "Tailwind CSS", className: "hover:bg-teal-500 hover:text-white" },
-    { name: "ExpressJS", className: "hover:text-black hover:bg-white" },
-    { name: "Hono", className: "hover:text-white hover:bg-orange-400" },
-    { name: "NodeJS", className: "hover:bg-green-400 hover:text-black" },
-    { name: "Bun", className: "hover:text-gray-900 hover:bg-white" },
-    { name: "NGINX", className: "hover:bg-green-600 hover:text-white" },
+    {
+      category: "Core / AI Integration",
+      items: [
+        { name: "DeepSeek AI", className: "hover:bg-indigo-600 hover:text-white" },
+        { name: "Mistral AI", className: "hover:bg-orange-500 hover:text-white" },
+        { name: "Elysia (Bun)", className: "hover:text-gray-900 hover:bg-white" },
+        { name: "Node.js", className: "hover:bg-green-400 hover:text-black" },
+        { name: "Hono", className: "hover:text-white hover:bg-orange-400" },
+        { name: "Python / Django", className: "hover:bg-yellow-500 hover:text-black" },
+        { name: "Google Maps API", className: "hover:bg-green-600 hover:text-white" },
+      ],
+    },
+    {
+      category: "Frontend Architect",
+      items: [
+        { name: "React", className: "hover:bg-sky-400 hover:text-black" },
+        { name: "Next.js", className: "hover:bg-black hover:text-white" },
+        { name: "React Native (Expo)", className: "hover:bg-sky-400 hover:text-black" },
+        { name: "Blazor (.NET/C#)", className: "hover:bg-purple-700 hover:text-white" },
+        { name: "TypeScript", className: "hover:bg-blue-600 hover:text-white" },
+        { name: "Tailwind CSS", className: "hover:bg-teal-500 hover:text-white" },
+        { name: "PWA", className: "hover:bg-violet-500 hover:text-white" },
+        { name: "Zustand", className: "hover:bg-[#453F39] hover:text-white" },
+        { name: "React Query", className: "hover:bg-red-500 hover:text-white" },
+        { name: "Redux", className: "hover:bg-purple-600 hover:text-white" },
+      ],
+    },
+    {
+      category: "Data & Infra",
+      items: [
+        { name: "PostgreSQL", className: "hover:bg-blue-800 hover:text-white" },
+        { name: "Drizzle ORM", className: "hover:bg-lime-500 hover:text-black" },
+        { name: "Docker", className: "hover:bg-blue-500 hover:text-white" },
+        { name: "Coolify", className: "hover:bg-emerald-600 hover:text-white" },
+        { name: "Beszel (Monitoring)", className: "hover:bg-cyan-600 hover:text-white" },
+        { name: "CI/CD", className: "hover:bg-gray-600 hover:text-white" },
+        { name: "S3 Backups", className: "hover:bg-amber-600 hover:text-white" },
+      ],
+    },
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "kadityafikar@gmail.com",
     tel: "+6281296760145",
     social: {
-      // GitHub: {
-      //   name: "GitHub",
-      //   url: "https://dub.sh/dillion-github",
-      //   icon: Icons.github,
-      //   navbar: true,
-      // },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/kemal-aditya-z-b4276614a/",
         icon: Icons.linkedin,
-
         navbar: true,
       },
-      // X: {
-      //   name: "X",
-      //   url: "https://dub.sh/dillion-twitter",
-      //   icon: Icons.x,
-
-      //   navbar: true,
-      // },
       WhatsApp: {
         name: "WhatsApp",
         url: "https://wa.me/6281296760145?text=I'm%20interested%20in%20your%20portfolio%20for%20a%20potential%20hiring%20opportunity.",
         icon: Icons.whatsapp,
         navbar: true,
       },
+      sesaKu: {
+        name: "sesaKu",
+        url: "https://sesaku.id",
+        icon: Icons.globe,
+        navbar: true,
+      },
       email: {
         name: "Send Email",
         url: "mailto:kadityafikar@gmail.com",
         icon: Icons.email,
-
         navbar: true,
       },
       download: {
@@ -83,20 +93,51 @@ export const DATA = {
 
   work: [
     {
+      company: "sesaKu",
+      href: "https://sesaku.id",
+      badges: [],
+      location: "Bandung",
+      title: "Founder & Solo Engineer",
+      logoUrl: "/project/sesaku/logo.png",
+      start: "2026",
+      end: "Present",
+      description: `
+        <li>Launched an AI-driven personal finance PWA to alpha testers, managing the entire lifecycle from product discovery to server deployment.</li>
+        <li>Automated ~90% of manual expense entry using <strong>Mistral AI</strong> for receipt OCR and <strong>DeepSeek</strong> for voice-to-text in Bahasa Indonesia.</li>
+        <li>Owned the entire product lifecycle: backend architecture, AI prompt engineering, frontend, infrastructure, SEO, and user acquisition strategy.</li>
+        <li>Designed a conflict-free real-time sync architecture for "Saku Bersama" (shared wallet) using optimistic locking and row-level access control on <strong>PostgreSQL</strong>, ensuring strict data consistency across concurrent family users.</li>
+        <li>Self-hosted the entire infrastructure with <strong>Coolify</strong> and <strong>Docker</strong>, keeping operational costs under control while maintaining production-grade monitoring (<strong>Beszel</strong>) and automated backups (<strong>S3</strong>).</li>
+      `,
+    },
+    {
       company: "Balesin.id",
       href: "https://balesin.id/",
       badges: [],
       location: "Jakarta",
-      title: "Frontend/Mobile Engineer",
+      title: "Frontend & Mobile Engineer",
       logoUrl: "/balesin.png",
       start: "Feb 2022",
-      end: "Present",
+      end: "Jan 2026",
       description: `
-        <li>Led development of a scalable product-transaction web app using <strong>NextJS</strong>, cutting page load time by ~30% and improving conversion.</li>
-        <li>Built a high-impact marketing landing page in <strong>ReactJS</strong> to increase engagement.</li>
-        <li>Delivered an internal <strong>ReactJS</strong> CMS to accelerate content operations.</li>
-        <li>Shipped a cashier app with <strong>React Native (Expo)</strong> enabling seamless mobile transactions.</li>
-        <li>Continuously iterated on <strong>UI/UX</strong>, accessibility, and performance.</li>
+        <li>Led frontend architecture for a product-transaction platform using <strong>Next.js</strong>, reducing page load time by ~30% and improving conversion rates.</li>
+        <li>Engineered an offline-first mobile POS with <strong>React Native (Expo)</strong> — local-first data persistence ensuring 100% uptime for daily retail operations, deployed to Google Play.</li>
+        <li>Created a modular internal CMS that accelerated marketing content deployment speed, reducing publish cycles from days to hours.</li>
+        <li>Optimized Core Web Vitals (LCP, CLS) on high-traffic landing pages to secure sustainable organic search rankings.</li>
+      `,
+    },
+    {
+      company: "Arnatech",
+      href: "https://arnatech.id/",
+      badges: ["Freelance"],
+      location: "Remote",
+      title: "Frontend Engineer",
+      logoUrl: "/arnatech.png",
+      start: "2024",
+      end: "2025",
+      description: `
+        <li>Architected the frontend data layer for <strong>EMS+</strong>, an AI-powered employee monitoring system — consuming real-time activity streams via <strong>WebSocket</strong> feeds into productivity dashboards with anomaly detection, reducing manual HR reporting overhead.</li>
+        <li>Led frontend architecture for <strong>Pertamina Learning Hub</strong> using <strong>Blazor/.NET</strong> — defined component library, state management, and development flow for an enterprise KMS serving <strong>10k+ employees</strong> nationwide.</li>
+        <li>Designed <strong>BRI Mikro Unit Task Monitoring</strong> — a multi-level approval dashboard that cut savings & loan performance review cycles, enabling data-driven decisions from regional to national level.</li>
       `,
     },
     {
@@ -109,10 +150,9 @@ export const DATA = {
       start: "Feb 2021",
       end: "Feb 2022",
       description: `
-      <li>Designed and built the <strong>BRI Emergency Report</strong> app using <strong>Google Maps APIs</strong> for precise geolocation and reporting.</li>
-      <li>Developed the BRI cashless payment web app with <strong>ReactJS</strong>, <strong>Bootstrap</strong>, and <strong>Redux</strong> to streamline transactions.</li>
-      <li>Implemented the <strong>Hukum Online</strong> frontend with <strong>Sass</strong>, enhancing usability and performance.</li>
-    `,
+        <li>Delivered the <strong>BRI Emergency Report</strong> geolocation system and <strong>BRI cashless payment</strong> web app — two production apps serving nationwide banking operations.</li>
+        <li>Shipped the <strong>Hukum Online</strong> frontend, improving page performance and legal content discoverability.</li>
+      `,
     },
     {
       company: "Wir Group",
@@ -124,73 +164,118 @@ export const DATA = {
       start: "Apr 2019",
       end: "Feb 2021",
       description: `
-      <li>Contributed as a <strong>Frontend Developer</strong> across B2B initiatives, delivering <strong>web apps</strong>, <strong>dashboards</strong>, and <strong>landing pages</strong> optimized for performance.</li>
-      <li>Collaborated with clients including <strong>Alfamart</strong>, <strong>Mandiri</strong>, and <strong>Muamalat</strong> to tailor solutions to business needs.</li>      `,
+        <li>Delivered production web apps across B2B banking and retail initiatives for <strong>Alfamart</strong>, <strong>Mandiri</strong>, and <strong>Bank Muamalat</strong> — including the Hijrah Groceries ordering platform integrated into Muamalat's mobile banking.</li>
+      `,
     },
     {
       company: "Yuna & Co",
       href: "https://yuna.co/en/",
       badges: [],
       location: "Jakarta",
-      title: "Junior Fullstack",
+      title: "Junior Fullstack Developer",
       logoUrl: "/yuna.jpg",
       start: "Feb 2018",
       end: "Apr 2019",
       description: `
-      <li>Built backend validation with Node.js using <strong>hapi/joi</strong> for robust data quality.</li>
-      <li>Created and integrated email templates to improve communication workflows.</li>
-      <li>Developed a product gallery landing page and web application using <strong>Django</strong>.</li>`,
+        <li>Built backend validation with <strong>Node.js</strong> using <strong>hapi/joi</strong> for robust data quality across APIs.</li>
+        <li>Developed product gallery and web applications using <strong>Django</strong>, handling both frontend and backend.</li>
+      `,
     },
-    // {
-    //   company: "Mitre Media",
-    //   href: "https://mitremedia.com/",
-    //   badges: [],
-    //   location: "Toronto, ON",
-    //   title: "Software Engineer",
-    //   logoUrl: "/mitremedia.png",
-    //   start: "May 2017",
-    //   end: "August 2017",
-    //   description:
-    //     "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
-    // },
   ],
   education: [
-    // {
-    //   school: "NIOMIC (Online Course)",
-    //   href: "https://niomic.id/",
-    //   degree: "Frontend",
-    //   logoUrl: "/niomic.png",
-    //   start: "2019",
-    //   end: "2020",
-    //   description: ``,
-    // },
     {
       school: "Makers Institute",
       href: "https://makersinstitute.io/home",
-      degree: "Full Stack (Bootcamp)",
+      degree: "Full Stack Development (Bootcamp)",
       logoUrl: "/makers.jpg",
       start: "2017",
       end: "2018",
       description: "",
     },
-    {
-      school: "UIN Bandung",
-      href: "https://pddikti.kemdiktisaintek.go.id/detail-mahasiswa/Hs1zaXNtxCBuXwIhQHVNhVtLiz043S26ndsdifUP1MLHMGTa7UQDJQhy88NA37YcldD5RQ==",
-      degree: "Electrical Engineering",
-      logoUrl: "/uin.png",
-      start: "2011",
-      end: "2016",
-      description: "",
-    },
   ],
   projects: [
+    // --- FEATURED (top 3) ---
+    {
+      title: "sesaKu — AI Personal Finance",
+      href: "https://sesaku.id",
+      dates: "2026",
+      subtitle: "Full-Stack Product · Solo Build",
+      description:
+        "End-to-end architecture: Elysia (Bun) + PostgreSQL backend with custom auth and real-time sync, React PWA frontend with offline-first strategy, DeepSeek prompt pipeline for NLP categorization, and Mistral vision model for receipt OCR. Deployed on self-hosted Coolify/Docker infra with automated S3 backups.",
+      active: true,
+      technologies: [
+        "React",
+        "Vite",
+        "TypeScript",
+        "Tailwind CSS",
+        "Zustand",
+        "React Query",
+        "Elysia (Bun)",
+        "PostgreSQL",
+        "DeepSeek AI",
+        "Mistral AI",
+        "PWA",
+        "Coolify",
+        "Payment Gateway",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://sesaku.id",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "App",
+          href: "https://app.sesaku.id",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      thumbnail: "/project/sesaku/logo.png",
+      listToShow: {
+        type: "iframe" as "imageList" | "iframe" | "video",
+        imageList: [],
+        iframe: "https://sesaku.id",
+        video: "",
+      },
+    },
+    {
+      title: "Pertamina Learning Hub",
+      href: "https://arnatech.id/portfolio/pertamina-learning-hub-knowledge-management-system/",
+      dates: "2025",
+      subtitle: "Enterprise System Architecture · Blazor/.NET",
+      description:
+        "Led frontend architecture decisions for a Blazor/.NET enterprise KMS — defined component library, state management patterns, project structure, and development flow for the team. System centralizes organizational knowledge and enables measurable learning outcomes across Pertamina.",
+      active: true,
+      technologies: [
+        "Blazor",
+        ".NET",
+        "C#",
+        "Tailwind CSS",
+      ],
+      links: [
+        {
+          type: "Case Study",
+          href: "https://arnatech.id/portfolio/pertamina-learning-hub-knowledge-management-system/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      thumbnail: "/project/pertamina/PLH with Text.webp",
+      listToShow: {
+        type: "imageList" as "imageList" | "iframe" | "video",
+        imageList: [
+          "/project/pertamina/PLH with Text.webp",
+        ],
+        iframe: "",
+        video: "",
+      },
+    },
     {
       title: "POS / Cashier Application",
       href: "",
-      dates: "",
-      subtitle: `Frontend & Mobile`,
+      dates: "2024",
+      subtitle: "Mobile Engineering · Offline-First Architecture",
       description:
-        "Mobile-first POS and cashier app for sales recording, inventory tracking, and daily operations. Built with React Native Expo and TypeScript with an intuitive, responsive UI for fast cashier flows. Deployed to Google Play.",
+        "Engineered a local-first data persistence layer using Zustand to ensure 100% offline uptime for high-volume daily retail sales tracking. Deployed to Google Play with fast cashier workflows, inventory management, and automatic data sync on reconnect.",
       active: true,
       technologies: [
         "React Native",
@@ -198,7 +283,6 @@ export const DATA = {
         "TypeScript",
         "NativeWind",
         "Zustand",
-        "UI/UX",
       ],
       links: [
         {
@@ -209,9 +293,8 @@ export const DATA = {
       ],
       thumbnail: "/project/pos/pos1.png",
       listToShow: {
-        type: "imageList" as "imageList" | "iframe" | "video", //iframe, video, imageList
+        type: "imageList" as "imageList" | "iframe" | "video",
         imageList: [
-          // "/project/pos/pos1.png",
           "/project/pos/pos5.png",
           "/project/pos/pos2.png",
           "/project/pos/pos4.png",
@@ -222,57 +305,53 @@ export const DATA = {
       },
     },
     {
-      title: "ESCROW SG",
-      href: "",
-      dates: "",
-      subtitle: `Frontend`,
+      title: "EMS+ — AI Employee Monitoring",
+      href: "https://arnatech.id/portfolio/ai-powered-employee-monitoring-system-for-secure-efficient-workflows/",
+      dates: "2025",
+      subtitle: "AI Product Integration & Frontend",
       description:
-        "Escrow web platform enabling secure, transparent transactions between individuals and businesses, with role-based flows and real-time status tracking.",
+        "Architected the frontend data layer to consume real-time AI analytics feeds — processing employee activity streams into actionable productivity dashboards with anomaly detection and automated risk flagging.",
       active: true,
       technologies: [
-        "NextJS",
+        "ReactJS",
         "TypeScript",
         "Tailwind CSS",
         "Zustand",
         "Antd",
-        "UI/UX",
-        "OneSignal",
       ],
       links: [
         {
-          type: "Website",
-          href: "https://app.escrowsg.com/",
+          type: "Case Study",
+          href: "https://arnatech.id/portfolio/ai-powered-employee-monitoring-system-for-secure-efficient-workflows/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      thumbnail: "/project/escrow/thumb.webp",
+      thumbnail: "/project/ems/dash1.png",
       listToShow: {
-        type: "imageList" as "imageList" | "iframe" | "video", //iframe, video, imageList
+        type: "imageList" as "imageList" | "iframe" | "video",
         imageList: [
-          "/project/escrow/1.png",
-          "/project/escrow/2.png",
-          "/project/escrow/3.png",
-          "/project/escrow/4.png",
-          "/project/escrow/5.webp",
+          "/project/ems/dash1.png",
+          "/project/ems/dash2.png",
+          "/project/ems/dash3.png",
         ],
         iframe: "",
         video: "",
       },
     },
+    // --- ARCHIVE ---
     {
       title: "BRI Mikro Unit Task Monitoring",
       href: "",
       dates: "",
-      subtitle: `Frontend & UI/UX`,
+      subtitle: "Enterprise Dashboard · Multi-level Auth",
       description:
-        "Web application for <strong>BRI (Bank Rakyat Indonesia)</strong> to monitor savings and loan performance with multi-level approvals and real-time dashboards (targets vs. actuals), enabling data-driven decisions from regional to national levels.",
+        "Complex role-based dashboard with cascading approval flows — from branch level to national management. Built real-time data visualization comparing targets vs. actuals for savings and loan performance across hundreds of BRI micro units.",
       active: true,
       technologies: [
-        "UI/UX",
         "ReactJS",
         "Vite",
-        "Typescript",
-        "TailwindCSS",
+        "TypeScript",
+        "Tailwind CSS",
         "Zustand",
         "Antd",
       ],
@@ -285,19 +364,57 @@ export const DATA = {
       ],
       thumbnail: "/project/bri/thumb.png",
       listToShow: {
-        type: "video", //iframe, video, imageList
+        type: "video" as "imageList" | "iframe" | "video",
         imageList: [],
         iframe: "",
         video: "project/bri/bri.mp4",
       },
     },
     {
+      title: "ESCROW SG",
+      href: "",
+      dates: "",
+      subtitle: "Fintech Platform · Next.js",
+      description:
+        "Escrow web platform enabling secure, transparent transactions between individuals and businesses, with role-based flows, real-time status tracking, and push notifications via OneSignal.",
+      active: true,
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Zustand",
+        "Antd",
+        "OneSignal",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://app.escrowsg.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      thumbnail: "/project/escrow/thumb.webp",
+      listToShow: {
+        type: "imageList" as "imageList" | "iframe" | "video",
+        imageList: [
+          "/project/escrow/1.png",
+          "/project/escrow/2.png",
+          "/project/escrow/3.png",
+          "/project/escrow/4.png",
+          "/project/escrow/5.webp",
+        ],
+        iframe: "",
+        video: "",
+      },
+    },
+    {
       title: "Utility Fielding",
       href: "",
       dates: "",
-      subtitle: "Frontend",
+      subtitle: "Geospatial Engineering · Maps & Canvas API",
       active: true,
-      description: `Web application for underground and aerial field inspection and design. Integrated <strong>Google Maps API</strong> for line drawing, marking, and pole coordination, and <strong>Canvas API</strong> for drafting. Enables efficient planning and inspection in the field.`,
+      description:
+        "Web application for underground and aerial field inspection and design. Integrated Google Maps API for line drawing, marking, and pole coordination, and Canvas API for drafting.",
       technologies: [
         "ReactJS",
         "TypeScript",
@@ -316,59 +433,20 @@ export const DATA = {
       ],
       thumbnail: "/project/utility/thumb.png",
       listToShow: {
-        type: "video", //iframe, video, imageList
-        imageList: [
-          // "https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp",
-          // "https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp",
-          // "https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp",
-        ],
+        type: "video" as "imageList" | "iframe" | "video",
+        imageList: [],
         iframe: "",
         video: "project/utility/utility.mp4",
-      },
-    },
-    {
-      title: "Hijrah Groceries Bank Muamalat",
-      href: "",
-      dates: "",
-      subtitle: "Frontend",
-      active: true,
-      description:
-        "Web application that allows businesses to access a retail partner's products through <strong>Bank Muamalat</strong>'s mobile banking app, enabling B2B ordering and payment within a secure platform.",
-      technologies: [
-        "ReactJS",
-        "TypeScript",
-        "Antd",
-        "Tailwind CSS",
-        "Google Maps API",
-        "Zustand",
-      ],
-      links: [
-        {
-          type: "App",
-          href: "https://play.google.com/store/apps/details?id=com.muamalatdin&pcampaignid=web_share",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      thumbnail: "/project/muamalat/thumb.png",
-      listToShow: {
-        type: "video", //iframe, video, imageList
-        imageList: [
-          // "https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp",
-          // "https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp",
-          // "https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp",
-        ],
-        iframe: "",
-        video: "project/muamalat/vid.mp4",
       },
     },
     {
       title: "EMORY",
       href: "",
       dates: "",
-      subtitle: "Frontend",
+      subtitle: "Multi-role E-commerce · Firebase",
       active: true,
       description:
-        "Multi-role e-commerce management platform for <strong>suppliers</strong>, <strong>resellers</strong>, and <strong>stockists</strong>. Supports product catalog, inventory, orders, sales insights, and customer data with a <strong>Firebase</strong>-powered live chat.",
+        "Multi-role e-commerce management platform for suppliers, resellers, and stockists. Supports product catalog, inventory, orders, sales insights, and Firebase-powered live chat.",
       technologies: [
         "ReactJS",
         "TypeScript",
@@ -386,7 +464,7 @@ export const DATA = {
       ],
       thumbnail: "/project/emory/thumb.png",
       listToShow: {
-        type: "imageList", //iframe, video, imageList
+        type: "imageList" as "imageList" | "iframe" | "video",
         imageList: [
           "project/emory/dash.png",
           "project/emory/chat.png",
@@ -399,418 +477,36 @@ export const DATA = {
         video: "",
       },
     },
+    {
+      title: "Hijrah Groceries Bank Muamalat",
+      href: "",
+      dates: "",
+      subtitle: "B2B Banking Integration · React",
+      active: true,
+      description:
+        "Web application that allows businesses to access a retail partner's products through Bank Muamalat's mobile banking app, enabling B2B ordering and payment within a secure platform.",
+      technologies: [
+        "ReactJS",
+        "TypeScript",
+        "Antd",
+        "Tailwind CSS",
+        "Google Maps API",
+        "Zustand",
+      ],
+      links: [
+        {
+          type: "App",
+          href: "https://play.google.com/store/apps/details?id=com.muamalatdin&pcampaignid=web_share",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      thumbnail: "/project/muamalat/thumb.png",
+      listToShow: {
+        type: "video" as "imageList" | "iframe" | "video",
+        imageList: [],
+        iframe: "",
+        video: "project/muamalat/vid.mp4",
+      },
+    },
   ],
-
-  // certificates: [
-  //   {
-  //     title: "fdsfsdf1",
-  //     description: "desc1",
-  //     img: "/certificates/kominfo.jpg",
-  //   },
-  //   {
-  //     title: "python",
-  //     description: "desc1",
-  //     img: "/certificates/python.jpg",
-  //   },
-  //   {
-  //     title: "fdsfsdf2",
-  //     description: "desc2",
-  //     img: "/certificates/dqlab1.jpg",
-  //   },
-  //   {
-  //     title: "fdsfsdf3",
-  //     description: "desc3",
-  //     img: "/certificates/dqlab2.jpg",
-  //   },
-  //   {
-  //     title: "fdsfsdf4",
-  //     description: "desc4",
-  //     img: "/certificates/dqlab3.jpg",
-  //   },
-  // ],
-  // hackathons: [
-  //   {
-  //     title: "Hack Western 5",
-  //     subtitle: "November 23rd - 25th, 2018",
-  //     location: "London, Ontario",
-  //     description:
-  //       "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-  //     mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-  //     links: [],
-  //   },
-  //   {
-  //     title: "Hack The North",
-  //     dates: "September 14th - 16th, 2018",
-  //     location: "Waterloo, Ontario",
-  //     description:
-  //       "Developed a mobile application which delivers university campus wide events in real time to all students.",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-  //     mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-  //     links: [],
-  //   },
-  //   {
-  //     title: "FirstNet Public Safety Hackathon",
-  //     dates: "March 23rd - 24th, 2018",
-  //     location: "San Francisco, California",
-  //     description:
-  //       "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
-  //     icon: "public",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
-  //     links: [],
-  //   },
-  //   {
-  //     title: "DeveloperWeek Hackathon",
-  //     dates: "February 3rd - 4th, 2018",
-  //     location: "San Francisco, California",
-  //     description:
-  //       "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
-  //     links: [
-  //       {
-  //         title: "Github",
-  //         icon: <Icons.github className="h-4 w-4" />,
-  //         href: "https://github.com/cryptotrends/cryptotrends",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     title: "HackDavis",
-  //     dates: "January 20th - 21st, 2018",
-  //     location: "Davis, California",
-  //     description:
-  //       "Developed a mobile application which allocates a daily carbon emission allowance to users to move towards a sustainable environment.",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-davis.png",
-  //     win: "Best Data Hack",
-  //     mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
-  //     links: [
-  //       {
-  //         title: "Devpost",
-  //         icon: <Icons.globe className="h-4 w-4" />,
-  //         href: "https://devpost.com/software/my6footprint",
-  //       },
-  //       {
-  //         title: "ML",
-  //         icon: <Icons.github className="h-4 w-4" />,
-  //         href: "https://github.com/Wallet6/my6footprint-machine-learning",
-  //       },
-  //       {
-  //         title: "iOS",
-  //         icon: <Icons.github className="h-4 w-4" />,
-  //         href: "https://github.com/Wallet6/CarbonWallet",
-  //       },
-  //       {
-  //         title: "Server",
-  //         icon: <Icons.github className="h-4 w-4" />,
-  //         href: "https://github.com/Wallet6/wallet6-server",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     title: "ETH Waterloo",
-  //     dates: "October 13th - 15th, 2017",
-  //     location: "Waterloo, Ontario",
-  //     description:
-  //       "Developed a blockchain application for doctors and pharmacists to perform trustless transactions and prevent overdosage in patients.",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/eth-waterloo.png",
-  //     links: [
-  //       {
-  //         title: "Organization",
-  //         icon: <Icons.github className="h-4 w-4" />,
-  //         href: "https://github.com/ethdocnet",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     title: "Hack The North",
-  //     dates: "September 15th - 17th, 2017",
-  //     location: "Waterloo, Ontario",
-  //     description:
-  //       "Developed a virtual reality application allowing users to see themselves in third person.",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-  //     mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-  //     links: [
-  //       {
-  //         title: "Streamer Source",
-  //         icon: <Icons.github className="h-4 w-4" />,
-  //         href: "https://github.com/justinmichaud/htn2017",
-  //       },
-  //       {
-  //         title: "Client Source",
-  //         icon: <Icons.github className="h-4 w-4" />,
-  //         href: "https://github.com/dillionverma/RTSPClient",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     title: "Hack The 6ix",
-  //     dates: "August 26th - 27th, 2017",
-  //     location: "Toronto, Ontario",
-  //     description:
-  //       "Developed an open platform for people shipping items to same place to combine shipping costs and save money.",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-6ix.jpg",
-  //     mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-  //     links: [
-  //       {
-  //         title: "Source",
-  //         icon: <Icons.github className="h-4 w-4" />,
-  //         href: "https://github.com/ShareShip/ShareShip",
-  //       },
-  //       {
-  //         title: "Site",
-  //         icon: <Icons.globe className="h-4 w-4" />,
-  //         href: "https://share-ship.herokuapp.com/",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     title: "Stupid Hack Toronto",
-  //     dates: "July 23rd, 2017",
-  //     location: "Toronto, Ontario",
-  //     description:
-  //       "Developed a chrome extension which tracks which facebook profiles you have visited and immediately texts your girlfriend if you visited another girls page.",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/stupid-hackathon.png",
-  //     links: [
-  //       {
-  //         title: "Source",
-  //         icon: <Icons.github className="h-4 w-4" />,
-  //         href: "https://github.com/nsagirlfriend/nsagirlfriend",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     title: "Global AI Hackathon - Toronto",
-  //     dates: "June 23rd - 25th, 2017",
-  //     location: "Toronto, Ontario",
-  //     description:
-  //       "Developed a python library which can be imported to any python game and change difficulty of the game based on real time emotion of player. Uses OpenCV and webcam for facial recognition, and a custom Machine Learning Model trained on a [Kaggle Emotion Dataset](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/leaderboard) using [Tensorflow](https://www.tensorflow.org/Tensorflow) and [Keras](https://keras.io/). This project recieved 1st place prize at the Global AI Hackathon - Toronto and was also invited to demo at [NextAI Canada](https://www.nextcanada.com/next-ai).",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/global-ai-hackathon.jpg",
-  //     win: "1st Place Winner",
-  //     links: [
-  //       {
-  //         title: "Article",
-  //         icon: <Icons.globe className="h-4 w-4" />,
-  //         href: "https://syncedreview.com/2017/06/26/global-ai-hackathon-in-toronto/",
-  //       },
-  //       {
-  //         title: "Source",
-  //         icon: <Icons.github className="h-4 w-4" />,
-  //         href: "https://github.com/TinySamosas/",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     title: "McGill AI for Social Innovation Hackathon",
-  //     dates: "June 17th - 18th, 2017",
-  //     location: "Montreal, Quebec",
-  //     description:
-  //       "Developed realtime facial microexpression analyzer using AI",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/ai-for-social-good.jpg",
-  //     links: [],
-  //   },
-  //   {
-  //     title: "Open Source Circular Economy Days Hackathon",
-  //     dates: "June 10th, 2017",
-  //     location: "Toronto, Ontario",
-  //     description:
-  //       "Developed a custom admin interface for food waste startup <a href='http://genecis.co/'>Genecis</a> to manage their data and provide analytics.",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/open-source-circular-economy-days.jpg",
-  //     win: "1st Place Winner",
-  //     links: [
-  //       {
-  //         title: "Source",
-  //         icon: <Icons.github className="h-4 w-4" />,
-  //         href: "https://github.com/dillionverma/genecis",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     title: "Make School's Student App Competition 2017",
-  //     dates: "May 19th - 21st, 2017",
-  //     location: "International",
-  //     description: "Improved PocketDoc and submitted to online competition",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/make-school-hackathon.png",
-  //     win: "Top 10 Finalist | Honourable Mention",
-  //     links: [
-  //       {
-  //         title: "Medium Article",
-  //         icon: <Icons.globe className="h-4 w-4" />,
-  //         href: "https://medium.com/make-school/the-winners-of-make-schools-student-app-competition-2017-a6b0e72f190a",
-  //       },
-  //       {
-  //         title: "Devpost",
-  //         icon: <Icons.globe className="h-4 w-4" />,
-  //         href: "https://devpost.com/software/pocketdoc-react-native",
-  //       },
-  //       {
-  //         title: "YouTube",
-  //         icon: <Icons.youtube className="h-4 w-4" />,
-  //         href: "https://www.youtube.com/watch?v=XwFdn5Rmx68",
-  //       },
-  //       {
-  //         title: "Source",
-  //         icon: <Icons.github className="h-4 w-4" />,
-  //         href: "https://github.com/dillionverma/pocketdoc-react-native",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     title: "HackMining",
-  //     dates: "May 12th - 14th, 2017",
-  //     location: "Toronto, Ontario",
-  //     description: "Developed neural network to optimize a mining process",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-mining.png",
-  //     links: [],
-  //   },
-  //   {
-  //     title: "Waterloo Equithon",
-  //     dates: "May 5th - 7th, 2017",
-  //     location: "Waterloo, Ontario",
-  //     description:
-  //       "Developed Pocketdoc, an app in which you take a picture of a physical wound, and the app returns common solutions or cures to the injuries or diseases.",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/waterloo-equithon.png",
-  //     links: [
-  //       {
-  //         title: "Devpost",
-  //         icon: <Icons.globe className="h-4 w-4" />,
-  //         href: "https://devpost.com/software/pocketdoc-react-native",
-  //       },
-  //       {
-  //         title: "YouTube",
-  //         icon: <Icons.youtube className="h-4 w-4" />,
-  //         href: "https://www.youtube.com/watch?v=XwFdn5Rmx68",
-  //       },
-  //       {
-  //         title: "Source",
-  //         icon: <Icons.github className="h-4 w-4" />,
-  //         href: "https://github.com/dillionverma/pocketdoc-react-native",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     title: "SpaceApps Waterloo",
-  //     dates: "April 28th - 30th, 2017",
-  //     location: "Waterloo, Ontario",
-  //     description:
-  //       "Developed Earthwatch, a web application which allows users in a plane to virtually see important points of interest about the world below them. They can even choose to fly away from their route and then fly back if they choose. Special thanks to CesiumJS for providing open source world and plane models.",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/space-apps.png",
-  //     links: [
-  //       {
-  //         title: "Source",
-  //         icon: <Icons.github className="h-4 w-4" />,
-  //         href: "https://github.com/dillionverma/earthwatch",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     title: "MHacks 9",
-  //     dates: "March 24th - 26th, 2017",
-  //     location: "Ann Arbor, Michigan",
-  //     description:
-  //       "Developed Super Graphic Air Traffic, a VR website made to introduce people to the world of air traffic controlling. This project was built completely using THREE.js as well as a node backend server.",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/mhacks-9.png",
-  //     mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-  //     links: [
-  //       {
-  //         title: "Source",
-  //         icon: <Icons.github className="h-4 w-4" />,
-  //         href: "https://github.com/dillionverma/threejs-planes",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     title: "StartHacks I",
-  //     dates: "March 4th - 5th, 2017",
-  //     location: "Waterloo, Ontario",
-  //     description:
-  //       "Developed at StartHacks 2017, Recipic is a mobile app which allows you to take pictures of ingredients around your house, and it will recognize those ingredients using ClarifAI image recognition API and return possible recipes to make. Recipic recieved 1st place at the hackathon for best pitch and hack.",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/starthacks.png",
-  //     win: "1st Place Winner",
-  //     mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-  //     links: [
-  //       {
-  //         title: "Source (Mobile)",
-  //         icon: <Icons.github className="h-4 w-4" />,
-  //         href: "https://github.com/mattBlackDesign/recipic-ionic",
-  //       },
-  //       {
-  //         title: "Source (Server)",
-  //         icon: <Icons.github className="h-4 w-4" />,
-  //         href: "https://github.com/mattBlackDesign/recipic-rails",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     title: "QHacks II",
-  //     dates: "February 3rd - 5th, 2017",
-  //     location: "Kingston, Ontario",
-  //     description:
-  //       "Developed a mobile game which enables city-wide manhunt with random lobbies",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/qhacks.png",
-  //     mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-  //     links: [
-  //       {
-  //         title: "Source (Mobile)",
-  //         icon: <Icons.github className="h-4 w-4" />,
-  //         href: "https://github.com/dillionverma/human-huntr-react-native",
-  //       },
-  //       {
-  //         title: "Source (API)",
-  //         icon: <Icons.github className="h-4 w-4" />,
-  //         href: "https://github.com/mattBlackDesign/human-huntr-rails",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     title: "Terrible Hacks V",
-  //     dates: "November 26th, 2016",
-  //     location: "Waterloo, Ontario",
-  //     description:
-  //       "Developed a mock of Windows 11 with interesting notifications and functionality",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/terrible-hacks-v.png",
-  //     links: [
-  //       {
-  //         title: "Source",
-  //         icon: <Icons.github className="h-4 w-4" />,
-  //         href: "https://github.com/justinmichaud/TerribleHacks2016-Windows11",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     title: "Portal Hackathon",
-  //     dates: "October 29, 2016",
-  //     location: "Kingston, Ontario",
-  //     description:
-  //       "Developed an internal widget for uploading assignments using Waterloo's portal app",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/portal-hackathon.png",
-  //     links: [
-  //       {
-  //         title: "Source",
-  //         icon: <Icons.github className="h-4 w-4" />,
-  //         href: "https://github.com/UWPortalSDK/crowmark",
-  //       },
-  //     ],
-  //   },
-  // ],
 } as const;

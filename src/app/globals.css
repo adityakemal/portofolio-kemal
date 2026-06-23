@@ -142,3 +142,12 @@ code[data-line-numbers-max-digits="2"] > [data-line]::before {
 code[data-line-numbers-max-digits="3"] > [data-line]::before {
   width: 3rem;
 }
+
+/* Project archive: hide by default, show when Show More is open */
+.project-archive {
+  display: none;
+}
+
+div:has(> #show-more-projects[open]) .project-archive {
+  display: block;
+}
