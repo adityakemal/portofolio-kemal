@@ -162,9 +162,8 @@ export default function Page() {
                   What I&apos;ve Shipped
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-pretty">
-                  From enterprise banking systems to AI-powered consumer
-                  apps — 7+ years of building production software that
-                  real people use.
+                  Enterprise systems, AI products, and mobile apps —
+                  production software used by real people.
                 </p>
               </div>
             </div>
@@ -224,16 +223,15 @@ export default function Page() {
                 Let&apos;s connect!
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Feel free to{" "}
+                Got an interesting project or problem?{" "}
                 <Link
                   href={DATA.contact.social.WhatsApp.url}
                   className="text-blue-500 hover:underline"
                   target="_blank"
                 >
-                  reach out via WhatsApp
-                </Link>{" "}
-                with any questions or opportunities. I&apos;m always excited to
-                explore new possibilities and will get back to you quickly!
+                  Let&apos;s talk on WhatsApp
+                </Link>
+                .
               </p>
             </div>
           </BlurFade>

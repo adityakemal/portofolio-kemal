@@ -77,6 +77,7 @@ export function ProjectCard({
         {/* with video  */}
         {listToShowType === "video" && (
           <Image
+            alt={title}
             className="w-full object-cover aspect-video hover:object-contain"
             preview={{
               mask: (
@@ -119,6 +120,7 @@ export function ProjectCard({
         {/* with iframe  */}
         {listToShowType === "iframe" && (
           <Image
+            alt={title}
             className="w-full object-cover aspect-video hover:object-contain"
             preview={{
               mask: (
@@ -160,6 +162,7 @@ export function ProjectCard({
         {listToShowType === "imageList" && (
           <Image.PreviewGroup items={listToShow?.imageList as string[]}>
             <Image
+              alt={title}
               src={thumbnail}
               className="w-full object-cover aspect-video hover:object-contain"
               preview={{

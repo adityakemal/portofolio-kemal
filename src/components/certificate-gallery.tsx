@@ -16,6 +16,7 @@ function CertificateGallery({ data, blurFadeDelay }: CertificateGalleryProps) {
         {data?.map((certificate: any, id: any) => (
           <BlurFade key={certificate?.title} delay={blurFadeDelay + id * 0.05}>
             <Image
+              alt={certificate?.title}
               width={"100%"}
               className="rounded-lg shadow"
               src={certificate?.img}
