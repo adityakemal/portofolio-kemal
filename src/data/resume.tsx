@@ -7,8 +7,7 @@ export const DATA = {
   url: "https://adityakemal.vercel.app/",
   location: "Bandung",
   locationLink: "https://www.google.com/maps/place/bandung",
-  description:
-    "Software Engineer. Enterprise systems, AI products, and self-hosted infrastructure.",
+  description: "Software Engineer.",
   summary: `Software engineer with [7+ years](/#work) of experience — strongest in frontend architecture, with production work spanning backend, mobile, AI integration, and self-hosted infra. Built systems for Indonesia's largest enterprises (BRI, Pertamina) and shipped AI products from zero to users.`,
   avatarUrl: "/ava.jpeg",
   avatarUrlCartoon: "/me.jpeg",
@@ -70,17 +69,29 @@ export const DATA = {
         { name: "PWA", className: "hover:bg-violet-500 hover:text-white" },
         { name: "Zustand", className: "hover:bg-amber-600 hover:text-white" },
         { name: "Shadcn UI", className: "hover:bg-black hover:text-white" },
-        { name: "TanStack Query", className: "hover:bg-red-500 hover:text-white" },
+        {
+          name: "TanStack Query",
+          className: "hover:bg-red-500 hover:text-white",
+        },
       ],
     },
     {
       category: "Infra",
       items: [
         { name: "Docker", className: "hover:bg-blue-500 hover:text-white" },
-        { name: "CI/CD (GitHub Actions)", className: "hover:bg-gray-600 hover:text-white" },
+        {
+          name: "CI/CD (GitHub Actions)",
+          className: "hover:bg-gray-600 hover:text-white",
+        },
         { name: "Coolify", className: "hover:bg-violet-500 hover:text-white" },
-        { name: "Uptime & Monitoring", className: "hover:bg-emerald-500 hover:text-black" },
-        { name: "Cloudflare", className: "hover:bg-orange-500 hover:text-white" },
+        {
+          name: "Uptime & Monitoring",
+          className: "hover:bg-emerald-500 hover:text-black",
+        },
+        {
+          name: "Cloudflare",
+          className: "hover:bg-orange-500 hover:text-white",
+        },
         { name: "NGINX", className: "hover:bg-green-600 hover:text-white" },
       ],
     },
