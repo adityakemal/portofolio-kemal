@@ -103,7 +103,7 @@ export const DATA = {
     social: {
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/kemal-aditya-z-b4276614a/",
+        url: "https://www.linkedin.com/in/kadityaz/",
         icon: Icons.linkedin,
         navbar: true,
       },
@@ -144,12 +144,12 @@ export const DATA = {
     {
       company: "sesaKu",
       href: "https://sesaku.id",
-      badges: [],
+      badges: ["Side Project"],
       location: "Bandung",
       title: "Founder & Solo Engineer",
       logoUrl: "/project/sesaku/logo.png",
       start: "2026",
-      end: "Present",
+      end: "",
       description: `
         <li>Built and launched an AI personal finance PWA from zero — backend, frontend, AI pipeline, infra, all solo.</li>
         <li>Automated ~90% of manual expense entry with <strong>Mistral AI</strong> (receipt OCR) and <strong>DeepSeek</strong> (voice-to-text, Bahasa Indonesia).</li>
@@ -164,7 +164,7 @@ export const DATA = {
       title: "Frontend & Mobile Engineer",
       logoUrl: "/balesin.png",
       start: "Feb 2022",
-      end: "Jan 2026",
+      end: "Present",
       description: `
         <li>Led frontend architecture with <strong>Next.js</strong> — cut page load ~30%, improved conversion.</li>
         <li>Built offline-first mobile POS with <strong>React Native (Expo)</strong> — 100% uptime for daily retail, shipped to Play Store.</li>
@@ -289,7 +289,7 @@ export const DATA = {
       thumbnail: "/project/pertamina/PLH with Text.webp",
       listToShow: {
         type: "imageList" as "imageList" | "iframe" | "video",
-        imageList: ["/project/pertamina/PLH with Text.webp"],
+        imageList: ["/project/pertamina/pertamina-plh-onboard.webp"],
         iframe: "",
         video: "",
       },
