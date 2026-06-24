@@ -122,7 +122,7 @@ export default function Page() {
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold">Skills</h2>
+            <h2 className="text-xl font-bold">Stacks</h2>
           </BlurFade>
           <div className="flex flex-col gap-3">
             {DATA.skills.map((group, gid) => (
@@ -162,8 +162,8 @@ export default function Page() {
                   What I&apos;ve Shipped
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-pretty">
-                  Enterprise systems, AI products, and mobile apps —
-                  production software used by real people.
+                  Enterprise systems, AI products, and mobile apps — production
+                  software used by real people.
                 </p>
               </div>
             </div>
@@ -203,7 +203,11 @@ export default function Page() {
                     stroke="currentColor"
                     strokeWidth={2}
                   >
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M19 9l-7 7-7-7"
+                    />
                   </svg>
                 </summary>
               </details>
