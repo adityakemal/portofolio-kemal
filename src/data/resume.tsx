@@ -100,7 +100,7 @@ export const DATA = {
         name: "sesaKu",
         url: "https://sesaku.id",
         icon: Icons.globe,
-        navbar: true,
+        navbar: false,
       },
       email: {
         name: "Send Email",
@@ -108,11 +108,17 @@ export const DATA = {
         icon: Icons.email,
         navbar: true,
       },
+      GitHub: {
+        name: "GitHub",
+        url: "https://github.com/adityakemal",
+        icon: Icons.github,
+        navbar: true,
+      },
       download: {
         name: "Download Resume",
         url: "/ResumeFE_Kemal_2026.pdf",
         icon: Icons.download,
-        navbar: true,
+        navbar: false,
       },
     },
   },
