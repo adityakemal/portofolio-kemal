@@ -8,8 +8,8 @@ export const DATA = {
   location: "Bandung",
   locationLink: "https://www.google.com/maps/place/bandung",
   description:
-    "Frontend & Mobile Engineer. Enterprise systems (BRI, Pertamina) and AI products.",
-  summary: `Frontend & mobile engineer with [7+ years](/#work) of experience — built production systems for Indonesia's largest enterprises and shipped AI products from zero to users. I specialize in complex frontend architecture, offline-first mobile, and LLM integration that solves real friction.`,
+    "Software Engineer. Enterprise systems, AI products, and self-hosted infrastructure.",
+  summary: `Software engineer with [7+ years](/#work) of experience — strongest in frontend architecture, with production work spanning backend, mobile, AI integration, and self-hosted infra. Built systems for Indonesia's largest enterprises (BRI, Pertamina) and shipped AI products from zero to users.`,
   avatarUrl: "/ava.jpeg",
   avatarUrlCartoon: "/me.jpeg",
   skills: [
