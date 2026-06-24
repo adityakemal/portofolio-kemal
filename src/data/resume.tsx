@@ -142,21 +142,6 @@ export const DATA = {
 
   work: [
     {
-      company: "sesaKu",
-      href: "https://sesaku.id",
-      badges: ["Side Project"],
-      location: "Bandung",
-      title: "Founder & Solo Engineer",
-      logoUrl: "/project/sesaku/logo.png",
-      start: "2026",
-      end: "",
-      description: `
-        <li>Built and launched an AI personal finance PWA from zero — backend, frontend, AI pipeline, infra, all solo.</li>
-        <li>Automated ~90% of manual expense entry with <strong>Mistral AI</strong> (receipt OCR) and <strong>DeepSeek</strong> (voice-to-text, Bahasa Indonesia).</li>
-        <li>Self-hosted production infra on <strong>Coolify + Docker</strong> with automated backups and monitoring.</li>
-      `,
-    },
-    {
       company: "Balesin.id",
       href: "https://balesin.id/",
       badges: [],
@@ -169,6 +154,21 @@ export const DATA = {
         <li>Led frontend architecture with <strong>Next.js</strong> — cut page load ~30%, improved conversion.</li>
         <li>Built offline-first mobile POS with <strong>React Native (Expo)</strong> — 100% uptime for daily retail, shipped to Play Store.</li>
         <li>Built internal CMS that cut marketing publish cycles from days to hours.</li>
+      `,
+    },
+    {
+      company: "sesaKu",
+      href: "https://sesaku.id",
+      badges: ["Side Project"],
+      location: "Bandung",
+      title: "Founder & Solo Engineer",
+      logoUrl: "/project/sesaku/logo.png",
+      start: "2026",
+      end: "",
+      description: `
+        <li>Built and launched an AI personal finance PWA from zero — backend, frontend, AI pipeline, infra, all solo.</li>
+        <li>Automated ~90% of manual expense entry with <strong>Mistral AI</strong> (receipt OCR) and <strong>DeepSeek</strong> (voice-to-text, Bahasa Indonesia).</li>
+        <li>Self-hosted production infra on <strong>Coolify + Docker</strong> with automated backups and monitoring.</li>
       `,
     },
     {
