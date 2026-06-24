@@ -67,15 +67,21 @@ export const DATA = {
           name: "Tailwind CSS",
           className: "hover:bg-teal-500 hover:text-white",
         },
+        { name: "PWA", className: "hover:bg-violet-500 hover:text-white" },
+        { name: "Zustand", className: "hover:bg-amber-600 hover:text-white" },
+        { name: "Shadcn UI", className: "hover:bg-black hover:text-white" },
+        { name: "TanStack Query", className: "hover:bg-red-500 hover:text-white" },
       ],
     },
     {
       category: "Infra",
       items: [
         { name: "Docker", className: "hover:bg-blue-500 hover:text-white" },
-        { name: "CI/CD", className: "hover:bg-gray-600 hover:text-white" },
-        { name: "PWA", className: "hover:bg-violet-500 hover:text-white" },
+        { name: "CI/CD (GitHub Actions)", className: "hover:bg-gray-600 hover:text-white" },
         { name: "Coolify", className: "hover:bg-violet-500 hover:text-white" },
+        { name: "Uptime & Monitoring", className: "hover:bg-emerald-500 hover:text-black" },
+        { name: "Cloudflare", className: "hover:bg-orange-500 hover:text-white" },
+        { name: "NGINX", className: "hover:bg-green-600 hover:text-white" },
       ],
     },
   ],
@@ -412,7 +418,7 @@ export const DATA = {
     {
       title: "Utility Fielding",
       href: "",
-      dates: "",
+      dates: "2021",
       subtitle: "Geospatial · Maps & Canvas API",
       active: true,
       description:
@@ -444,7 +450,7 @@ export const DATA = {
     {
       title: "EMORY",
       href: "",
-      dates: "",
+      dates: "2021",
       subtitle: "E-commerce · Multi-role Platform",
       active: true,
       description:
