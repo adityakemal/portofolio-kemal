@@ -132,10 +132,10 @@ export const DATA = {
         navbar: true,
       },
       download: {
-        name: "Download Resume",
-        url: "/ResumeFE_Kemal_2026.pdf",
+        name: "Resume",
+        url: "/cv-ats-kadityaz.pdf",
         icon: Icons.download,
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -276,7 +276,7 @@ export const DATA = {
       dates: "2025",
       subtitle: "Enterprise KMS · Blazor/.NET",
       description:
-        "Led frontend architecture for Pertamina's knowledge management system — component library, state patterns, and dev workflow for a team building for 10k+ employees.",
+        "Led frontend architecture for Pertamina's knowledge management system — component library, state patterns, and dev workflow for a team building for thousands of employees.",
       active: true,
       technologies: ["Blazor", ".NET", "C#", "Tailwind CSS"],
       links: [
