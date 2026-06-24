@@ -181,7 +181,7 @@ export const DATA = {
       href: "https://wir.group/en/",
       badges: [],
       location: "Jakarta",
-      title: "Frontend Developer",
+      title: "Senior Frontend Developer",
       logoUrl: "/wir.png",
       start: "Apr 2019",
       end: "Feb 2021",
