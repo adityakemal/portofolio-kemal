@@ -181,10 +181,11 @@ export const DATA = {
       start: "2021",
       end: "2025",
       description: `
-        <li><strong>EMS+</strong> — Frontend data layer for AI employee monitoring: real-time WebSocket feeds into productivity dashboards with anomaly detection.</li>
-        <li><strong>Pertamina Learning Hub</strong> — Led Blazor/.NET frontend architecture for enterprise KMS serving <strong>10k+ employees</strong>.</li>
-        <li><strong>BRI Mikro Task Monitoring</strong> — Multi-level approval dashboard for savings & loan performance across hundreds of micro units.</li>
-        <li><strong>BRI Emergency Report</strong> (geolocation) and <strong>BRI cashless payment</strong> — production apps for nationwide banking.</li>
+      <li><strong>EMS+</strong> — Frontend data layer for AI employee monitoring: real-time WebSocket feeds into productivity dashboards with anomaly detection.</li>
+      <li><strong>Pertamina Learning Hub</strong> — Led Blazor/.NET frontend architecture for enterprise KMS serving <strong>10k+ employees</strong>.</li>
+      <li><strong>BRI Mikro Task Monitoring</strong> — Multi-level approval dashboard for savings & loan performance across hundreds of micro units.</li>
+      <li><strong>BRI Emergency Report</strong> (geolocation) and <strong>BRI cashless payment</strong> — production apps for nationwide banking.</li>
+      <li><strong>XL</strong> — Migrated the core public portal (xl.co.id) from legacy CMS to <strong>Next.js</strong>, designing a dynamic, API-driven component layout engine.</li>
       `,
     },
     {
@@ -364,6 +365,36 @@ export const DATA = {
       },
     },
     // --- ARCHIVE ---
+    {
+      title: "XL Web Portal",
+      href: "https://xl.co.id/",
+      dates: "2022",
+      subtitle: "Web Portal · CMS Migration",
+      description:
+        "Migrated the core public portal of XL from legacy CMS to Next.js. Engineered a dynamic layout engine rendering modular components (cards, banners, buttons) dynamically via Headless CMS APIs.",
+      active: true,
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "REST API",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://xl.co.id/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      thumbnail: "/project/xl/xl.jpg",
+      listToShow: {
+        type: "imageList" as "imageList" | "iframe" | "video",
+        imageList: ["/project/xl/xl.jpg"],
+        iframe: "",
+        video: "",
+      },
+    },
     {
       title: "BRI Mikro Unit Task Monitoring",
       href: "",
