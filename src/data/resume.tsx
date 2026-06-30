@@ -181,11 +181,12 @@ export const DATA = {
       start: "2021",
       end: "2025",
       description: `
-      <li><strong>EMS+</strong> — Frontend data layer for AI employee monitoring: real-time WebSocket feeds into productivity dashboards with anomaly detection.</li>
-      <li><strong>Pertamina Learning Hub</strong> — Led Blazor/.NET frontend architecture for enterprise KMS serving <strong>10k+ employees</strong>.</li>
-      <li><strong>BRI Mikro Task Monitoring</strong> — Multi-level approval dashboard for savings & loan performance across hundreds of micro units.</li>
-      <li><strong>BRI Emergency Report</strong> (geolocation) and <strong>BRI cashless payment</strong> — production apps for nationwide banking.</li>
-      <li><strong>XL</strong> — Migrated the core public portal (xl.co.id) from legacy CMS to <strong>Next.js</strong>, designing a dynamic, API-driven component layout engine.</li>
+      <li><strong>EMS+</strong> — Led frontend architecture as Lead Frontend Engineer for AI employee monitoring: built real-time WebSocket feeds into productivity dashboards with anomaly detection.</li>
+      <li><strong>Pertamina Learning Hub</strong> — Acted as Lead Frontend Engineer, leading Blazor/.NET frontend architecture for enterprise KMS serving <strong>thousands of employees</strong>.</li>
+      <li><strong>BRI Ecosystem Tree CRM</strong> — Led frontend development of a referral pipeline management system with role-based access control (RBAC) across multiple management levels.</li>
+      <li><strong>BRI Mikro Task Monitoring</strong> — Led frontend development as Lead Frontend Engineer for multi-level approval dashboard for savings & loan performance across hundreds of micro units.</li>
+      <li><strong>BRI Emergency Report</strong> (geolocation) and <strong>BRI cashless payment</strong> — Led frontend implementation of production apps for nationwide banking.</li>
+      <li><strong>XL</strong> — Revamped XL's legacy public portal frontend into a faster, modern <strong>Next.js</strong> experience with a redesigned user interface.</li>
       `,
     },
     {
@@ -275,9 +276,9 @@ export const DATA = {
       title: "Pertamina Learning Hub",
       href: "https://arnatech.id/portfolio/pertamina-learning-hub-knowledge-management-system/",
       dates: "2025",
-      subtitle: "Enterprise KMS · Blazor/.NET",
+      subtitle: "Lead Frontend · Enterprise KMS",
       description:
-        "Led frontend architecture for Pertamina's knowledge management system — component library, state patterns, and dev workflow for a team building for thousands of employees.",
+        "Acted as Lead Frontend Engineer, leading the architecture for Pertamina's knowledge management system (Blazor/.NET) — established component library, state patterns, and dev workflow for thousands of employees.",
       active: true,
       technologies: ["Blazor", ".NET", "C#", "Tailwind CSS"],
       links: [
@@ -334,9 +335,9 @@ export const DATA = {
       title: "EMS+ — AI Employee Monitoring",
       href: "https://arnatech.id/portfolio/ai-powered-employee-monitoring-system-for-secure-efficient-workflows/",
       dates: "2025",
-      subtitle: "AI Dashboard · Real-time Analytics",
+      subtitle: "Lead Frontend · AI Dashboard",
       description:
-        "Real-time productivity dashboards consuming AI activity streams — anomaly detection, automated risk flagging, replacing manual HR reporting.",
+        "Led frontend architecture and development as Lead Frontend Engineer for real-time productivity dashboards consuming AI activity streams — anomaly detection, automated risk flagging, replacing manual HR reporting.",
       active: true,
       technologies: [
         "ReactJS",
@@ -371,7 +372,7 @@ export const DATA = {
       dates: "2022",
       subtitle: "Web Portal · CMS Migration",
       description:
-        "Migrated the core public portal of XL from legacy CMS to Next.js. Engineered a dynamic layout engine rendering modular components (cards, banners, buttons) dynamically via Headless CMS APIs.",
+        "Revamped XL’s legacy public portal frontend into a modern Next.js experience with a redesigned interface and improved performance. Built dynamic CMS-driven layouts for modular components such as cards, banners, and buttons.",
       active: true,
       technologies: [
         "Next.js",
@@ -396,12 +397,46 @@ export const DATA = {
       },
     },
     {
+      title: "BRI Ecosystem Tree CRM",
+      href: "https://arnatech.id/portfolio/ecosystem-tree-crm-application-for-bri/",
+      dates: "2024",
+      subtitle: "Frontend Engineer · CRM Application",
+      description:
+        "Revamped XL's legacy public portal frontend into a modern Next.js experience with a redesigned interface and improved performance. Built dynamic CMS-driven layouts for modular components such as cards, banners, and buttons.",
+      active: true,
+      technologies: [
+        "ReactJS",
+        "TypeScript",
+        "Tailwind CSS",
+        "Zustand",
+        "Antd",
+        "REST API",
+      ],
+      links: [
+        {
+          type: "Case Study",
+          href: "https://arnatech.id/portfolio/ecosystem-tree-crm-application-for-bri/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      thumbnail: "/project/bri/bri-crm-thumb.jpeg",
+      listToShow: {
+        type: "imageList" as "imageList" | "iframe" | "video",
+        imageList: [
+          "/project/bri/bri-crm-thumb.jpeg",
+          "/project/bri/bri-crm.png",
+        ],
+        iframe: "",
+        video: "",
+      },
+    },
+    {
       title: "BRI Mikro Unit Task Monitoring",
       href: "",
       dates: "",
-      subtitle: "Enterprise Dashboard · Multi-level Auth",
+      subtitle: "Lead Frontend · Enterprise Dashboard",
       description:
-        "Role-based approval dashboard for BRI savings & loan performance — branch to national level, real-time target vs actuals visualization.",
+        "Led frontend engineering as Lead Frontend Engineer for a role-based approval dashboard for BRI savings & loan performance — branch to national level, real-time target vs actuals visualization.",
       active: true,
       technologies: [
         "ReactJS",
