@@ -172,9 +172,9 @@ export const DATA = {
       start: "2026",
       end: "",
       description: `
-        <li>Architected and shipped an interactive digital guestbook & live photobooth platform from zero to production as a solo engineer.</li>
-        <li>Engineered a high-performance <strong>client-side video & audio pipeline</strong> using <strong>MediaBunny (WebCodecs)</strong> (&lt;150ms H.264 MP4 encoding) with <strong>MediaRecorder / Canvas Stream</strong> fallbacks — executing boomerang capture, voice note transmuxing, and video looping entirely on-device with zero server-side FFmpeg rendering bottleneck.</li>
-        <li>Built real-time event features including dynamic 2D canvas photo strip compositing, live slideshow gallery, and high-concurrency backend powered by <strong>Bun + Hono</strong>, <strong>PostgreSQL (Drizzle ORM)</strong>, and S3-compatible direct storage.</li>
+        <li>Architected and launched an end-to-end digital event platform connecting invitations, RSVP, interactive guestbook, live photobooth, and real-time screen displays.</li>
+        <li>Engineered a client-side video & audio pipeline using <strong>MediaBunny (WebCodecs)</strong> for &lt;150ms on-device H.264 encoding and voice note processing, eliminating server-side rendering bottlenecks.</li>
+        <li>Built real-time event sync, dynamic 2D canvas photo strip compositing, and a high-concurrency backend powered by <strong>Bun + Hono</strong>, <strong>PostgreSQL (Drizzle ORM)</strong>, and direct S3 storage.</li>
       `,
     },
     {
@@ -252,12 +252,12 @@ export const DATA = {
   projects: [
     // --- FEATURED (top 3) ---
     {
-      title: "riungin.id — Digital Guestbook & Photobooth",
+      title: "riungin.id — Connected Digital Event Platform",
       href: "https://riungin.id",
       dates: "2026",
       subtitle: "Full-Stack Product · Solo Build",
       description:
-        "Digital guestbook and interactive photobooth featuring zero-backend client-side video/boomerang processing (MediaBunny / WebCodecs), audio-video transmuxing, real-time live gallery, and dynamic canvas photo strip synthesis.",
+        "All-in-one digital event platform connecting digital invitations, RSVP, interactive guestbook, live photobooth, and real-time screen displays. Built with on-device WebCodecs processing and high-concurrency event sync.",
       active: true,
       technologies: [
         "React",
