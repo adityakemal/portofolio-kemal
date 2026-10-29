@@ -162,6 +162,21 @@ export const DATA = {
         <li>Built internal CMS that cut marketing publish cycles from days to hours.</li>
       `,
     },
+     {
+      company: "riungin.id",
+      href: "https://riungin.id",
+      badges: ["Side Project"],
+      location: "Bandung",
+      title: "Founder & Solo Engineer",
+      logoUrl: "/project/riungin/logo.png",
+      start: "2026",
+      end: "",
+      description: `
+        <li>Architected and shipped an interactive digital guestbook & live photobooth platform from zero to production as a solo engineer.</li>
+        <li>Engineered a high-performance <strong>client-side video & audio pipeline</strong> using <strong>MediaBunny (WebCodecs)</strong> (&lt;150ms H.264 MP4 encoding) with <strong>MediaRecorder / Canvas Stream</strong> fallbacks — executing boomerang capture, voice note transmuxing, and video looping entirely on-device with zero server-side FFmpeg rendering bottleneck.</li>
+        <li>Built real-time event features including dynamic 2D canvas photo strip compositing, live slideshow gallery, and high-concurrency backend powered by <strong>Bun + Hono</strong>, <strong>PostgreSQL (Drizzle ORM)</strong>, and S3-compatible direct storage.</li>
+      `,
+    },
     {
       company: "sesaKu",
       href: "https://sesaku.id",
@@ -177,21 +192,7 @@ export const DATA = {
         <li>Self-hosted production infra on <strong>Coolify + Docker</strong> with automated backups and monitoring.</li>
       `,
     },
-    {
-      company: "riungin.id",
-      href: "https://riungin.id",
-      badges: ["Side Project"],
-      location: "Bandung",
-      title: "Founder & Solo Engineer",
-      logoUrl: "/project/riungin/logo.png",
-      start: "2026",
-      end: "",
-      description: `
-        <li>Architected and shipped an interactive digital guestbook & live photobooth platform from zero to production as a solo engineer.</li>
-        <li>Engineered a high-performance <strong>client-side video & audio pipeline</strong> using <strong>MediaBunny (WebCodecs)</strong> (&lt;150ms H.264 MP4 encoding) with <strong>MediaRecorder / Canvas Stream</strong> fallbacks — executing boomerang capture, voice note transmuxing, and video looping entirely on-device with zero server-side FFmpeg rendering bottleneck.</li>
-        <li>Built real-time event features including dynamic 2D canvas photo strip compositing, live slideshow gallery, and high-concurrency backend powered by <strong>Bun + Hono</strong>, <strong>PostgreSQL (Drizzle ORM)</strong>, and S3-compatible direct storage.</li>
-      `,
-    },
+   
     {
       company: "Arnatech",
       href: "https://arnatech.id/",
